@@ -1,43 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Poiret+One');
 
+/*----------------------------------------------------Welcome Home page*/
+
+.welcome-photo {
+    opacity: 0.27;
+    display: inline-block;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: auto;
+}
+.comp-name {
+    font-family: "Poiret One", sans-serif;
+    color: #efe1f3;
+    text-align: center;
+    font-size: 5em;
+    margin: auto;
+    height: auto;
+}
+
+/*----------------------------------------------------Main Nav/Menu page*/
 /*----------------------------------------------------Colours*/
 
 .bg-colour {
     background-color: #fffcf9;
 }
 
-.bg-color-name-title {
-    background-color: #bfc1c9;
-}
-
 /*----------------------------------------------------Nav bar*/
 
-.container {
+.container-fluid {
     padding-left: 0px;
     padding-right: 0px;
 }
-
-.heading {
-    margin-left: 25px;
-}
-
 .navbar-brand {
-    font-family: "Poiret One";
-    color: #fffcf9;
+    font-family: "Poiret One", sans-serif;
+    font-size: 40px;
+    color: #e5ceec;
 }
-
 .navbar {
     color: #bfc1c9;
 }
-
-.navbar-brand {
-    font-size: 30px;
-}
-
 .nav {
     font-family: "Poiret One";
 }
-
 .nav-link {
     color: #fffcf9;
 }
@@ -46,8 +51,9 @@
 
 .quote_mission {
     font-family: "Poiret One", sans-serif;
-    color: #bfc1c9;
+    color: #efe1f3;
     margin-left: 4%;
     font-size: 2.0em;
     text-align: center;
 }
+
