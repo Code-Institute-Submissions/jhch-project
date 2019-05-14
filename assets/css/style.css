@@ -10,11 +10,13 @@
 }
 
 /*----------------------------------------------------Welcome Landing Page*/
+#grad {
+  background-image: linear-gradient(to right, #fffcf9, #bfc1c9);
+}
 #myCanvas1 {
     background-color: #bfc1c9;
     line-height: 0.5;
 }
-
 #myCanvas2 {
     background-color: #c99dc4;
     line-height: 0.5;
@@ -31,6 +33,32 @@
     font-weight: 500;
     color: #c99dc4;
 }
+.position-logo {
+    position: relative;
+    top: -120px;
+    height: 80%;
+    width: 80%;
+    overflow-y: hidden;
+}
+.position-logo-lg {
+    position: relative;
+    top: -125px;
+    height: 80%;
+    width: 80%;
+    overflow-y: hidden;
+}
+.position-mission {
+    position: relative;
+    top: -125px
+}
+.position-mission-lg {
+    position: relative;
+    top: -110px
+}
+.position-sm-menu {
+    position: relative;
+    top: -100px
+}
 .mobile-logo {
     margin-top: 0;
     padding-top: 0;
@@ -40,12 +68,14 @@
     font-family: "Poiret One", sans-serif;
     font-size: 25px;
     color: #bfc1c9;
-    line-height: 0.8;
+    line-height: 1;
 }
 .nav-item {
     font-family: "Poiret One", sans-serif;
     font-size: 1em;
-    color: #c99dc4;
+}
+.nav-link {
+    color: #fffcf9;
 }
 .quote_mission {
     font-family: "Poiret One", sans-serif;
@@ -64,20 +94,17 @@
 }
 .side-menu-item-lg {
     font-family: "Poiret One", sans-serif;
-    font-size: 6em;
+    font-size: 5.5em;
     color: #c99dc4;
     line-height: 2;
 }
 .side-menu-item-sm {
     font-family: "Poiret One", sans-serif;
-    font-size: 1.5em;
+    font-size: 2em;
     color: #c99dc4;
     line-height: 2;
 }
 .welcome-photo {
     opacity: 0.15;
 }
-
 /*----------------------------------------------------Navbar*/
-
-
