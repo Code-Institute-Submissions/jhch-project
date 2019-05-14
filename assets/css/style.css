@@ -64,15 +64,15 @@
 }
 .side-menu-item-lg {
     font-family: "Poiret One", sans-serif;
-    font-size: 5.5em;
+    font-size: 6em;
     color: #c99dc4;
     line-height: 2;
 }
 .side-menu-item-sm {
     font-family: "Poiret One", sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #c99dc4;
-    line-height: 1;
+    line-height: 2;
 }
 .welcome-photo {
     opacity: 0.15;
