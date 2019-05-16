@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Poiret+One');
 
-
 /*----------------------------------------------------Body*/
 
 .bg-colour {
@@ -10,101 +9,133 @@
 }
 
 /*----------------------------------------------------Welcome Landing Page*/
-#grad {
-  background-image: linear-gradient(to right, #fffcf9, #bfc1c9);
+
 }
+
 #myCanvas1 {
     background-color: #bfc1c9;
     line-height: 0.5;
 }
+
 #myCanvas2 {
     background-color: #c99dc4;
     line-height: 0.5;
 }
+
 .display-3 {
     font-family: "Poiret One", sans-serif;
     font-size: 3em;
     font-weight: 500;
     color: #c99dc4;
 }
+
 .display-4 {
     font-family: "Poiret One", sans-serif;
     font-size: 6.5em;
     font-weight: 500;
     color: #c99dc4;
 }
-.position-logo {
-    position: relative;
-    top: -120px;
-    height: 80%;
-    width: 80%;
-    overflow-y: hidden;
-}
-.position-logo-lg {
-    position: relative;
-    top: -125px;
-    height: 80%;
-    width: 80%;
-    overflow-y: hidden;
-}
-.position-mission {
-    position: relative;
-    top: -125px
-}
-.position-mission-lg {
-    position: relative;
-    top: -110px
-}
-.position-sm-menu {
-    position: relative;
-    top: -100px
-}
+
 .mobile-logo {
     margin-top: 0;
     padding-top: 0;
     object-fit: cover;
 }
-.navbar-brand {
-    font-family: "Poiret One", sans-serif;
-    font-size: 25px;
-    color: #bfc1c9;
-    line-height: 1;
-}
-.nav-item {
-    font-family: "Poiret One", sans-serif;
-    font-size: 1em;
-}
-.nav-link {
-    color: #fffcf9;
-}
+
 .quote_mission {
     font-family: "Poiret One", sans-serif;
     font-size: 2em;
     color: #c99dc4;
 }
+
 .side-menu-lg {
     list-style-type: none;
     margin: auto;
     width: 100%;
 }
+
 .side-menu-sm {
     list-style-type: none;
     margin: auto;
     width: 100%;
 }
+
 .side-menu-item-lg {
     font-family: "Poiret One", sans-serif;
     font-size: 5.5em;
     color: #c99dc4;
     line-height: 2;
 }
+
 .side-menu-item-sm {
     font-family: "Poiret One", sans-serif;
     font-size: 2em;
     color: #c99dc4;
     line-height: 2;
 }
+
 .welcome-photo {
     opacity: 0.15;
 }
+
 /*----------------------------------------------------Navbar*/
+
+#grad1 {
+    background-image: linear-gradient(#bfc1c9, #fffcf9);
+}
+
+.navbar-brand {
+    font-family: "Poiret One", sans-serif;
+    font-size: 30px;
+    color: #7f8084;
+    line-height: 1;
+}
+
+.nav-item {
+    font-family: "Poiret One", sans-serif;
+    font-size: 1.2em;
+}
+
+.nav-link {
+    color: #7f8084;
+}
+
+.navbar-toggler-icon {
+    color: #7f8084;
+}
+
+/*----------------------------------------------------Footer*/
+
+#grad2 {
+    background-image: linear-gradient(#fffcf9, #bfc1c9);
+}
+
+footer {
+    font-family: "Poiret One", sans-serif;
+    color: #7f8084;
+    min-height: 60px;
+    margin: 0;
+}
+
+.list-inline-item  {
+    margin-top: 10px;
+}
+.copyright {
+    margin-top: 10px;
+}
+
+.list-inline-item i:hover {
+    color: #c99dc4;
+}
+
+.social-links li a i {
+    font-size: 24px;
+    padding: 12px 0;
+    line-height: 7px;
+    text-align:center;
+    color: #7f8084;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
