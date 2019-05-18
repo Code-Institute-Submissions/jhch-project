@@ -10,16 +10,28 @@
 .bg-color2 {
     background-color: #f1eaf1;
 }
-.bg-color3 {
-    background-color: #ececec;
-}
-
 /*----------------------------------------------------Welcome Landing Page*/
-.area-heading {
+.area-heading h2{
+    font-family: "Poiret One", sans-serif;
+    font-size: 4em;
     text-align: center;
     width: 100%;
     margin-bottom: 45px;
+    position: relative;
+    color: #c99dc4;
+    padding-top: 25px;
 }
+.area-heading h2::after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background: #bfc1c9;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+}
+
 body {
     max-height: 100vh;
 }
@@ -33,17 +45,19 @@ body {
     background-color: #c99dc4;
     line-height: 0.5;
 }
-
-.display-2 {
+.display-1 {
     font-family: "Poiret One", sans-serif;
-    font-size: 2.5em;
-    font-weight: 200;
+    font-size: 1.5em;
+    font-weight: 400;
     color: #bfc1c9;
     margin-bottom: 50px;
 }
-.heading-text {
+.display-2 {
     font-family: "Poiret One", sans-serif;
-    font-size: 4em;
+    font-size: 2em;
+    font-weight: 400;
+    color: #bfc1c9;
+    margin-bottom: 50px;
 }
 
 .mobile-logo {
@@ -172,4 +186,7 @@ footer {
 
 .area-padding {
     padding-bottom: 130px 0;
+}
+.blockquote {
+    margin-bottom: 0;
 }
