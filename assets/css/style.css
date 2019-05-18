@@ -4,12 +4,22 @@
 
 /*----------------------------------------------------Body*/
 
-.bg-colour {
+.bg-color1 {
     background-color: #fffcf9;
+}
+.bg-color2 {
+    background-color: #f1eaf1;
+}
+.bg-color3 {
+    background-color: #ececec;
 }
 
 /*----------------------------------------------------Welcome Landing Page*/
-
+.area-heading {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 45px;
+}
 body {
     max-height: 100vh;
 }
@@ -31,6 +41,10 @@ body {
     color: #bfc1c9;
     margin-bottom: 50px;
 }
+.heading-text {
+    font-family: "Poiret One", sans-serif;
+    font-size: 4em;
+}
 
 .mobile-logo {
     margin-top: 0;
@@ -40,7 +54,7 @@ body {
 
 .quotes {
     font-family: "Poiret One", sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 2.5;
     letter-spacing: 2px;
     color: #7f8084;
@@ -56,12 +70,14 @@ body {
     list-style-type: none;
     margin: auto;
     width: 100%;
+    font-size: 0.75em;
 }
 
 .side-menu-sm {
     list-style-type: none;
     margin: auto;
     width: 100%;
+    font-size: 1.75em;
 }
 
 .side-menu-item-lg {
@@ -77,7 +93,18 @@ body {
     color: #c99dc4;
     line-height: 2;
 }
-
+.welcome-font-sm{
+    font-family: "Poiret One", sans-serif;
+    font-size: 2em;
+    color: #c99dc4;
+    line-height: 2;
+}
+.welcome-font-lg {
+    font-family: "Poiret One", sans-serif;
+    font-size: 5em;
+    color: #c99dc4;
+    line-height: 1.1;
+}
 .welcome-photo {
     opacity: 0.15;
 }
@@ -143,6 +170,6 @@ footer {
 
 /*----------------------------------------------------Special Text/Margins*/
 
-.area-padding-bottom {
-    padding-bottom: 100px;
+.area-padding {
+    padding-bottom: 130px 0;
 }
