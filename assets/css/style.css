@@ -214,5 +214,9 @@ footer {
 }
 .carousel-caption {
     font-family: "Poiret One", sans-serif;
-    font-size: 30px;
+    font-size: 2.5vh;
+}
+.modal-content {
+    font-family: "Poiret One", sans-serif;
+    font-size: 2vh;
 }
