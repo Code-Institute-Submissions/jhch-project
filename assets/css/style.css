@@ -31,6 +31,10 @@
     transform: translateX(-50%);
     bottom: -10px;
 }
+.carousel-inner {
+    width: "40%";
+    height: "40%";
+}
 
 body {
     max-height: 100vh;
@@ -65,7 +69,18 @@ body {
     padding-top: 0;
     object-fit: cover;
 }
-
+.question-area {
+    font-family: "Poiret One", sans-serif;
+    background: #bfc1c9;
+    color: #fffcf9;
+    font-size: 2.5vh;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    padding: 20px;
+}
 .quotes {
     font-family: "Poiret One", sans-serif;
     font-size: 1.5em;
@@ -107,9 +122,16 @@ body {
     color: #c99dc4;
     line-height: 2;
 }
+.single-photo {
+    position: relative;
+}
+.thumb {
+    overflow: hidden;
+    opacity: 0.75;
+}
 .welcome-font-sm{
     font-family: "Poiret One", sans-serif;
-    font-size: 2em;
+    font-size: 2.5em;
     color: #c99dc4;
     line-height: 2;
 }
@@ -189,4 +211,8 @@ footer {
 }
 .blockquote {
     margin-bottom: 0;
+}
+.carousel-caption {
+    font-family: "Poiret One", sans-serif;
+    font-size: 30px;
 }
