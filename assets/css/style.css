@@ -34,6 +34,7 @@
 
 body {
     max-height: 100vh;
+    position: relative;
 }
 
 #myCanvas1 {
@@ -242,5 +243,6 @@ footer {
 }
 .modal-content {
     font-family: "Poiret One", sans-serif;
+    font-weight: 500;
     font-size: 2vh;
 }
