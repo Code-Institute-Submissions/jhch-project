@@ -13,7 +13,7 @@
 /*----------------------------------------------------Welcome Landing Page*/
 .area-heading h2{
     font-family: "Poiret One", sans-serif;
-    font-size: 4em;
+    font-size: 8vh;
     text-align: center;
     width: 100%;
     margin-bottom: 45px;
@@ -31,10 +31,6 @@
     transform: translateX(-50%);
     bottom: -10px;
 }
-.carousel-inner {
-    width: "40%";
-    height: "40%";
-}
 
 body {
     max-height: 100vh;
@@ -49,17 +45,24 @@ body {
     background-color: #c99dc4;
     line-height: 0.5;
 }
+.carousel-inner {
+    width: "40%";
+    height: "40%";
+}
+.carousel-img {
+    opacity: 0.7;
+}
 .display-1 {
     font-family: "Poiret One", sans-serif;
-    font-size: 1.5em;
+    font-size: 4vh;
     font-weight: 400;
     color: #bfc1c9;
     margin-bottom: 50px;
 }
 .display-2 {
     font-family: "Poiret One", sans-serif;
-    font-size: 2em;
-    font-weight: 400;
+    font-size: 6vh;
+    font-weight: 800;
     color: #bfc1c9;
     margin-bottom: 50px;
 }
@@ -99,14 +102,14 @@ body {
     list-style-type: none;
     margin: auto;
     width: 100%;
-    font-size: 0.75em;
+    font-size: 1.5vh;
 }
 
 .side-menu-sm {
     list-style-type: none;
     margin: auto;
     width: 100%;
-    font-size: 1.75em;
+    font-size: 2vh;
 }
 
 .side-menu-item-lg {
@@ -214,7 +217,8 @@ footer {
 }
 .carousel-caption {
     font-family: "Poiret One", sans-serif;
-    font-size: 2.5vh;
+    font-size: 2.8vh;
+    font-weight: 500;
 }
 .modal-content {
     font-family: "Poiret One", sans-serif;
