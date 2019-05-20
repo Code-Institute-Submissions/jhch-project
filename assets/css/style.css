@@ -74,19 +74,39 @@ body {
 }
 .question-area {
     font-family: "Poiret One", sans-serif;
-    background: #bfc1c9;
+    background: #d4b9d4;
     color: #fffcf9;
-    font-size: 2.5vh;
+    font-size: 18px;
+    line-height: 20px;
     font-weight: 500;
     position: absolute;
     bottom: 0;
     right: 0;
     width: 80%;
-    padding: 20px;
+    padding: 10px;
+    border-left: 1px solid #fffcf9;
+    border-top: 1px solid #fffcf9;
+    border-top-left-radius: 2%;
+}
+.question-area-sm {
+    font-family: "Poiret One", sans-serif;
+    background: #d4b9d4;
+    color: #fffcf9;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    padding: 10px;
+    border-left: 1px solid #fffcf9;
+    border-top: 1px solid #fffcf9;
+    border-top-left-radius: 2%;
 }
 .quotes {
     font-family: "Poiret One", sans-serif;
-    font-size: 1.5em;
+    font-size: 3vh;
     line-height: 2.5;
     letter-spacing: 2px;
     color: #7f8084;
@@ -94,7 +114,7 @@ body {
 
 .quote_mission {
     font-family: "Poiret One", sans-serif;
-    font-size: 2em;
+    font-size: 4vh;
     color: #c99dc4;
 }
 
