@@ -14,33 +14,90 @@
 #grad1 {
     background-image: linear-gradient(#bfc1c9, #fffcf9);
 }
-
 .navbar-brand {
     font-family: "Poiret One", sans-serif;
     font-size: 30px;
     color: #7f8084;
     line-height: 1;
 }
-
 .nav-item {
     font-family: "Poiret One", sans-serif;
     font-size: 1.2em;
 }
-
 .nav-link {
     color: #7f8084;
 }
-
 .navbar-toggler-icon {
     color: #7f8084;
 }
 /*----------------------------------------------------Landing/Welcome Page*/
+#myCanvas1 {
+    background-color: #bfc1c9;
+    line-height: 0.5;
+}
 
+#myCanvas2 {
+    background-color: #c99dc4;
+    line-height: 0.5;
+}
+.area-padding {
+    padding-bottom: 130px 0;
+}
+body {
+    max-height: 100vh;
+    position: relative;
+}
+.mobile-logo {
+    margin-top: 0;
+    padding-top: 0;
+}
+.quote_mission {
+    font-family: "Poiret One", sans-serif;
+    font-size: 4vh;
+    color: #c99dc4;
+}
+.side-menu-lg {
+    list-style-type: none;
+    margin: auto;
+    width: 100%;
+    font-size: 1.5vh;
+}
+.side-menu-sm {
+    list-style-type: none;
+    margin: auto;
+    width: 100%;
+    font-size: 2vh;
+}
+.side-menu-item-lg {
+    font-family: "Poiret One", sans-serif;
+    font-size: 5.5em;
+    color: #c99dc4;
+    line-height: 2;
+}
+.side-menu-item-sm {
+    font-family: "Poiret One", sans-serif;
+    font-size: 2em;
+    color: #c99dc4;
+    line-height: 2;
+}
+.welcome-font-sm{
+    font-family: "Poiret One", sans-serif;
+    font-size: 2.5em;
+    color: #c99dc4;
+    line-height: 2;
+}
+.welcome-font-lg {
+    font-family: "Poiret One", sans-serif;
+    font-size: 5em;
+    color: #c99dc4;
+    line-height: 1.1;
+}
+.welcome-photo {
+    opacity: 0.15;
+}
 /*----------------------------------------------------Get to know me section*/
 
 /*----------------------------------------------------Lets explore section*/
-
-/*----------------------------------------------------Connect with me section*/
 .area-heading h2{
     font-family: "Poiret One", sans-serif;
     font-size: 8vh;
@@ -61,24 +118,10 @@
     transform: translateX(-50%);
     bottom: -10px;
 }
-
-body {
-    max-height: 100vh;
-    position: relative;
-}
-
-#myCanvas1 {
-    background-color: #bfc1c9;
-    line-height: 0.5;
-}
-
-#myCanvas2 {
-    background-color: #c99dc4;
-    line-height: 0.5;
-}
-.carousel-inner {
-    width: "40%";
-    height: "40%";
+.carousel-caption {
+    font-family: "Poiret One", sans-serif;
+    font-size: 2.8vh;
+    font-weight: 500;
 }
 .carousel-img {
     opacity: 0.7;
@@ -96,12 +139,6 @@ body {
     font-weight: 800;
     color: #bfc1c9;
     margin-bottom: 50px;
-}
-
-.mobile-logo {
-    margin-top: 0;
-    padding-top: 0;
-    object-fit: cover;
 }
 .question-area {
     font-family: "Poiret One", sans-serif;
@@ -142,40 +179,6 @@ body {
     letter-spacing: 2px;
     color: #7f8084;
 }
-
-.quote_mission {
-    font-family: "Poiret One", sans-serif;
-    font-size: 4vh;
-    color: #c99dc4;
-}
-
-.side-menu-lg {
-    list-style-type: none;
-    margin: auto;
-    width: 100%;
-    font-size: 1.5vh;
-}
-
-.side-menu-sm {
-    list-style-type: none;
-    margin: auto;
-    width: 100%;
-    font-size: 2vh;
-}
-
-.side-menu-item-lg {
-    font-family: "Poiret One", sans-serif;
-    font-size: 5.5em;
-    color: #c99dc4;
-    line-height: 2;
-}
-
-.side-menu-item-sm {
-    font-family: "Poiret One", sans-serif;
-    font-size: 2em;
-    color: #c99dc4;
-    line-height: 2;
-}
 .single-photo {
     position: relative;
 }
@@ -183,23 +186,23 @@ body {
     overflow: hidden;
     opacity: 0.75;
 }
-.welcome-font-sm{
-    font-family: "Poiret One", sans-serif;
-    font-size: 2.5em;
-    color: #c99dc4;
-    line-height: 2;
-}
-.welcome-font-lg {
-    font-family: "Poiret One", sans-serif;
-    font-size: 5em;
-    color: #c99dc4;
-    line-height: 1.1;
-}
-.welcome-photo {
-    opacity: 0.15;
-}
+/*----------------------------------------------------Connect with me section*/
 
 
+.display-1 {
+    font-family: "Poiret One", sans-serif;
+    font-size: 4vh;
+    font-weight: 400;
+    color: #bfc1c9;
+    margin-bottom: 50px;
+}
+.display-2 {
+    font-family: "Poiret One", sans-serif;
+    font-size: 6vh;
+    font-weight: 800;
+    color: #bfc1c9;
+    margin-bottom: 50px;
+}
 /*----------------------------------------------------Footer/Quotes sections*/
 
 #grad2 {
@@ -227,18 +230,9 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-/*----------------------------------------------------Special Text/Margins*/
-
-.area-padding {
-    padding-bottom: 130px 0;
-}
+/*----------------------------------------------------Special Text/Margins/Modals*/
 .blockquote {
     margin-bottom: 0;
-}
-.carousel-caption {
-    font-family: "Poiret One", sans-serif;
-    font-size: 2.8vh;
-    font-weight: 500;
 }
 .modal-content {
     font-family: "Poiret One", sans-serif;
