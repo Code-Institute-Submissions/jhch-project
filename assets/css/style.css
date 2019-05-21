@@ -7,30 +7,39 @@
 .bg-color1 {
     background-color: #fffcf9;
 }
+
 .bg-color2 {
     background-color: #f1eaf1;
 }
+
 /*----------------------------------------------------Navbar*/
+
 #grad1 {
     background-image: linear-gradient(#bfc1c9, #fffcf9);
 }
+
 .navbar-brand {
     font-family: "Poiret One", sans-serif;
     font-size: 30px;
     color: #7f8084;
     line-height: 1;
 }
+
 .nav-item {
     font-family: "Poiret One", sans-serif;
     font-size: 1.2em;
 }
+
 .nav-link {
     color: #7f8084;
 }
+
 .navbar-toggler-icon {
     color: #7f8084;
 }
+
 /*----------------------------------------------------Landing/Welcome Page*/
+
 #myCanvas1 {
     background-color: #bfc1c9;
     line-height: 0.5;
@@ -40,67 +49,32 @@
     background-color: #c99dc4;
     line-height: 0.5;
 }
+#group1 {
+    z-index: 5;
+}
+#group2 {
+    z-index: 3;
+}
 .area-padding {
     padding-bottom: 130px 0;
 }
 body {
-    max-height: 100vh;
+    height: 100vh;
     padding-top: 75px;
-    position: relative;
 }
+
 .mobile-logo {
     margin-top: 0;
     padding-top: 0;
 }
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.parallax-layer-base {
-  transform: translateZ(0);
-}
-.parallax-layer-back {
-  transform: translateZ(-3px) scale(5);
-}
-.quote_mission {
+
+.quote_personal {
     font-family: "Poiret One", sans-serif;
     font-size: 4vh;
-    color: #c99dc4;
+    color: #fffcf;
+    background-color: #bfc1c9;
 }
-/*.side-menu-lg {
-    list-style-type: none;
-    margin: auto;
-    width: 100%;
-    font-size: 1.5vh;
-}
-.side-menu-sm {
-    list-style-type: none;
-    margin: auto;
-    width: 100%;
-    font-size: 2vh;
-}
-.side-menu-item-lg {
-    font-family: "Poiret One", sans-serif;
-    font-size: 5.5em;
-    color: #c99dc4;
-    line-height: 2;
-}
-.side-menu-item-sm {
-    font-family: "Poiret One", sans-serif;
-    font-size: 2em;
-    color: #c99dc4;
-    line-height: 2;
-}*/
-.welcome-font-sm{
+.welcome-font-sm {
     font-family: "Poiret One", sans-serif;
     font-size: 7vh;
     color: #c99dc4;
@@ -112,13 +86,14 @@ body {
     color: #c99dc4;
     line-height: 1.1;
 }
-.welcome-photo {
+.welcome-background {
     opacity: 0.15;
 }
 /*----------------------------------------------------Get to know me section*/
 
 /*----------------------------------------------------Lets explore section*/
-.area-heading h2{
+
+.area-heading h2 {
     font-family: "Poiret One", sans-serif;
     font-size: 8vh;
     text-align: center;
@@ -128,6 +103,7 @@ body {
     color: #c99dc4;
     padding-top: 25px;
 }
+
 .area-heading h2::after {
     content: '';
     position: absolute;
@@ -138,14 +114,17 @@ body {
     transform: translateX(-50%);
     bottom: -10px;
 }
+
 .carousel-caption {
     font-family: "Poiret One", sans-serif;
     font-size: 2.8vh;
     font-weight: 500;
 }
+
 .carousel-img {
     opacity: 0.7;
 }
+
 .display-1 {
     font-family: "Poiret One", sans-serif;
     font-size: 4vh;
@@ -153,6 +132,7 @@ body {
     color: #bfc1c9;
     margin-bottom: 50px;
 }
+
 .display-2 {
     font-family: "Poiret One", sans-serif;
     font-size: 6vh;
@@ -160,6 +140,7 @@ body {
     color: #bfc1c9;
     margin-bottom: 50px;
 }
+
 .question-area {
     font-family: "Poiret One", sans-serif;
     background: #d4b9d4;
@@ -176,6 +157,7 @@ body {
     border-top: 1px solid #fffcf9;
     border-top-left-radius: 2%;
 }
+
 .question-area-sm {
     font-family: "Poiret One", sans-serif;
     background: #d4b9d4;
@@ -192,6 +174,7 @@ body {
     border-top: 1px solid #fffcf9;
     border-top-left-radius: 2%;
 }
+
 .quotes {
     font-family: "Poiret One", sans-serif;
     font-size: 3vh;
@@ -199,32 +182,37 @@ body {
     letter-spacing: 2px;
     color: #7f8084;
 }
+
 .single-photo {
     position: relative;
 }
+
 .thumb {
     overflow: hidden;
     opacity: 0.75;
 }
-/*----------------------------------------------------Connect with me section*/
 
+/*----------------------------------------------------Connect with me section*/
 
 /*----------------------------------------------------Footer/Quotes sections*/
 
 #grad2 {
     background-image: linear-gradient(#fffcf9, #bfc1c9);
 }
+
 footer {
     font-family: "Poiret One", sans-serif;
     color: #7f8084;
     min-height: 60px;
     margin: 0;
 }
+
 .footer-logo {
     display: inline-block;
     margin-top: 0px;
     padding: 20px 10px;
 }
+
 .social-links li a i {
     font-size: 24px;
     padding: 12px 0;
@@ -236,7 +224,9 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
 /*----------------------------------------------------Special Text/Margins/Modals*/
+
 .blockquote {
     margin-bottom: 0;
 }
