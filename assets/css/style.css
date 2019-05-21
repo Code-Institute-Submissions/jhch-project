@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Poiret+One');
 
-/*----------------------------------------------------Body*/
+/*----------------------------------------------------Colours*/
 
 .bg-color1 {
     background-color: #fffcf9;
@@ -10,7 +10,37 @@
 .bg-color2 {
     background-color: #f1eaf1;
 }
-/*----------------------------------------------------Welcome Landing Page*/
+/*----------------------------------------------------Navbar*/
+#grad1 {
+    background-image: linear-gradient(#bfc1c9, #fffcf9);
+}
+
+.navbar-brand {
+    font-family: "Poiret One", sans-serif;
+    font-size: 30px;
+    color: #7f8084;
+    line-height: 1;
+}
+
+.nav-item {
+    font-family: "Poiret One", sans-serif;
+    font-size: 1.2em;
+}
+
+.nav-link {
+    color: #7f8084;
+}
+
+.navbar-toggler-icon {
+    color: #7f8084;
+}
+/*----------------------------------------------------Landing/Welcome Page*/
+
+/*----------------------------------------------------Get to know me section*/
+
+/*----------------------------------------------------Lets explore section*/
+
+/*----------------------------------------------------Connect with me section*/
 .area-heading h2{
     font-family: "Poiret One", sans-serif;
     font-size: 8vh;
@@ -169,52 +199,23 @@ body {
     opacity: 0.15;
 }
 
-/*----------------------------------------------------Navbar*/
 
-#grad1 {
-    background-image: linear-gradient(#bfc1c9, #fffcf9);
-}
-
-.navbar-brand {
-    font-family: "Poiret One", sans-serif;
-    font-size: 30px;
-    color: #7f8084;
-    line-height: 1;
-}
-
-.nav-item {
-    font-family: "Poiret One", sans-serif;
-    font-size: 1.2em;
-}
-
-.nav-link {
-    color: #7f8084;
-}
-
-.navbar-toggler-icon {
-    color: #7f8084;
-}
-
-/*----------------------------------------------------Footer*/
+/*----------------------------------------------------Footer/Quotes sections*/
 
 #grad2 {
     background-image: linear-gradient(#fffcf9, #bfc1c9);
 }
-
 footer {
     font-family: "Poiret One", sans-serif;
     color: #7f8084;
     min-height: 60px;
     margin: 0;
 }
-
 .footer-logo {
     display: inline-block;
     margin-top: 0px;
     padding: 20px 10px;
-
 }
-
 .social-links li a i {
     font-size: 24px;
     padding: 12px 0;
@@ -226,8 +227,6 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
-
 /*----------------------------------------------------Special Text/Margins*/
 
 .area-padding {
