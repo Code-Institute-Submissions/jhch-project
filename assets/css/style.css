@@ -95,8 +95,10 @@ body {
 .quote_personal {
     font-family: "Poiret One", sans-serif;
     font-size: 4vh;
-    color: #fffcf;
+    color: #fffcf9;
     background-color: #bfc1c9;
+    max-width: 100vw;
+    padding: 15px;
 }
 
 .welcome-font-sm {
@@ -257,6 +259,7 @@ footer {
 
 .blockquote {
     margin-bottom: 0;
+    background: rgba(255, 252, 249, 0.1);
 }
 
 .modal-content {
