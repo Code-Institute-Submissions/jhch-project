@@ -120,7 +120,12 @@ body {
 }
 
 /*----------------------------------------------------Get to know me section*/
-
+.blog-style-message {
+    font-family: "Poiret One", sans-serif;
+    font-size: 4vh;
+    background-color: #fffcf9;
+    color: #bfc1c9;
+}
 /*----------------------------------------------------Lets explore section*/
 
 .area-heading h2 {
