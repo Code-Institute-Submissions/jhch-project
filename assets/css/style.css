@@ -94,11 +94,11 @@ body {
 
 .quote_personal {
     font-family: "Poiret One", sans-serif;
-    font-size: 4vh;
+    font-size: 3vh;
     color: #fffcf9;
-    background-color: #bfc1c9;
-    max-width: 100vw;
+    background-color: #bfc1c9;s
     padding: 15px;
+    border-radius: 25px;
 }
 
 .welcome-font-sm {
@@ -110,7 +110,7 @@ body {
 
 .welcome-font-lg {
     font-family: "Poiret One", sans-serif;
-    font-size: 10vh;
+    font-size: 8vh;
     color: #c99dc4;
     line-height: 1.1;
 }
@@ -120,12 +120,15 @@ body {
 }
 
 /*----------------------------------------------------Get to know me section*/
+
 .blog-style-message {
     font-family: "Poiret One", sans-serif;
     font-size: 4vh;
     background-color: #fffcf9;
     color: #bfc1c9;
+    border-radius: 25px;
 }
+
 /*----------------------------------------------------Lets explore section*/
 
 .area-heading h2 {
@@ -213,7 +216,7 @@ body {
 .quotes {
     font-family: "Poiret One", sans-serif;
     font-size: 3vh;
-    line-height: 2.5;
+    line-height: 2;
     letter-spacing: 2px;
     color: #7f8084;
 }
@@ -263,7 +266,6 @@ footer {
 /*----------------------------------------------------Special Text/Margins/Modals*/
 
 .blockquote {
-    margin-bottom: 0;
     background: rgba(255, 252, 249, 0.1);
 }
 
@@ -272,3 +274,4 @@ footer {
     font-weight: 500;
     font-size: 2vh;
 }
+
