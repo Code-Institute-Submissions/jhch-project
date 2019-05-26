@@ -46,26 +46,26 @@
                 <img class="welcome-background" src="assets/images/logo.svg" alt="JHCH company logo" height="125%" width="125%">
             </div>
             <div class="bground__layer bground__layer--front">
-                <div class="row align-items-center justify-contents-center pb-5 my-5 ml-2">
+                <div class="row align-items-center justify-contents-center pb-5 my-2 ml-2">
                     <div class="text-left justify-contents-center my-3 mr-3 welcome-font-sm col-12 d-lg-none">
                         <p><strong>Justine<br>Hodgson<br>Curative<br>Hypnotherapy</strong></p>
                         <canvas class="rounded" id="myCanvas1" width="300" height="4"></canvas><br>
                         <canvas class="rounded" id="myCanvas2" width="200" height="4"></canvas>
                     </div>
-                    <div class="text-left justify-contents-center p-5 m-5 welcome-font-lg d-none d-lg-inline-block col-lg-5 offset-1">
+                    <div class="text-left justify-contents-center px-5 pb-5 mx-5 mb-5 welcome-font-lg d-none d-lg-inline-block col-lg-5 offset-1">
                         <p><strong>Justine<br>Hodgson<br>Curative<br>Hypnotherapy</strong></p>
                         <canvas class="rounded" id="myCanvas1" width="400" height="4"></canvas><br>
                         <canvas class="rounded" id="myCanvas2" width="300" height="4"></canvas>
                     </div>
                 </div>
-                
+
                 <div class="col-12">
                     <blockquote class="blockquote">
-                        <p class="text-center shadow quote_personal p-4 mb-5">"Hello and welcome to my website. I hope you find this site useful, healing and helpful whatever you are facing at this current time.<br><br> Whatever it is you are either facing or considering to face, may I take this opportunity to reach out
-                            to you and say, thank you & well done." - <i>Justine Hodgson</i></p>
+                        <p class="text-center shadow quote_personal p-4 mb-5">"Hello and welcome to my website. I hope you find this site useful, healing and helpful whatever you are facing at this current time.<br><br> Whatever it is you are either facing or considering to face, may I take this opportunity
+                            to reach out to you and say, thank you & well done." - <i>Justine Hodgson</i></p>
                     </blockquote>
                 </div>
-              
+
                 <section class="area-padding bg-color1">
                     <blockquote class="container-fluid blockquote">
                         <div class="row align-items-center justify-content-between mt-3">
@@ -86,10 +86,10 @@
     <section id="section1" class="area-padding bg-color2">
         <div class="container-fluid bground">
             <div class="bground__layer bground__layer--back">
-                <img class="welcome-background" src="assets/images/beautiful_v1.svg" alt="JHCH company image" height="125%" width="125%">
+                <img class="jus-photo" src="assets/images/beautiful_v1.svg" alt="JHCH company image" height="120%" width="120%">
             </div>
             <div class="bground__layer bground__layer--front">
-                <div class="row justify-content-center p-3 m-3">
+                <div class="row justify-content-center p-2 m-2">
                     <div class="area-heading">
                         <h2><i class="fas fa-map-signs"></i> Get to know me</h2>
                     </div>
@@ -98,35 +98,60 @@
                             <p class="text-center shadow quote_personal">A chance to share with you who I am. Listen, watch and read at your leisure.</p>
                         </blockquote>
                     </div>
-                    <!--<div class="col-12 col-lg-4">
-                        <img class="welcome-background" src="assets/images/beautiful_v1.svg" alt="Picture of Justine Hodgson" height="100%" width="100%">
-                    </div>-->
                     <div class="col-12">
                         <div class="row align-items-center justify-contents-center">
                             <div class="col-12 col-lg-8">
                                 <div class="blog-style-message p-3 m-2">
-                                    <p>The power of the human voice should never be underestimated. I hope you take this opportunity to identify with me and my journey so far. I"m a true believer of honesty, openess and willingness.</p>
+                                    <p>The power of the human voice should never be underestimated. I hope you take this opportunity to identify with me and my journey so far. I'm a true believer of honesty, openess and willingness.</p>
                                 </div>
                             </div>
                             <div class="col-12 col-lg-4">
                                 <div class="blog-style-message shadow justify-contents-center mx-auto mb-5 px-auto pb-5">
-                                    <a href="index.html">
-                                        <img class="img-fluid d-inline-block" src="../assets/images/jhch_logo.svg" width="100%" height="100%" alt="Comapny logo">
-                                    </a>
+                                    <audio id="audiotag1" src="assets/media/justine_intro.m4a" preload="auto" controls></audio>
+                                    <a href="javascript:play_single_sound();"><img class="img-fluid d-inline-block" src="../assets/images/jhch_logo.svg" width="100%" height="100%" alt="Comapny logo"></a>
+                                    <script type="text/javascript">
+                                        function play_single_sound() {
+                                            document.getElementById('audiotag1').play();
+                                        }
+                                    </script>
+
+                                    <!--<img class="img-fluid d-inline-block" src="../assets/images/jhch_logo.svg" width="100%" height="100%" alt="Comapny logo">-->
+
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <blockquote class="container-fluid blockquote">
-                        <div class="row align-items-center justify-content-between">
-                            <div class="col-12 quotes text-center my-5">
-                                <p class="mb-0"><i class="fas fa-quote-left"></i> Allow yourself to see what you don't allow yourself to see... <i class="fas fa-quote-right"></i></p>
-                                <footer class="blockquote-footer"><cite title="Source Title">Milton H. Erickson</cite></footer>
+                    <div class="col-12">
+                        <div class="row align-items-center justify-contents-center">
+                            <div class="col-12 col-lg-4">
+                                <div class="video-style shadow justify-contents-center">
+                                    <img class="img-fluid d-inline-block" src="../assets/images/sky.jpg" width="100%" height="100%" alt="Comapny logo">
+                                    <div class="play-btn">
+                                        <a class="play-video" href="https://www.youtube.com/watch?v=Buv006-D4vM">
+                                            <i class="fas play-video fa-play-circle"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                <div class="blog-style-message p-3 m-2">
+                                    <p> This video is short yet offers an insightful and illuminating explanation of what and how Hypnosis actually works.<br><br> Please feel free to check my blog for further articles that may provide a deeper understanding
+                                        about the subject and how Hypnosis can help you.<br><br>This will be an area for your personal video and this section can be as long as it needs to be.</p>
+                                </div>
                             </div>
                         </div>
-                    </blockquote>
+                    </div>
                 </div>
+
+
+                <blockquote class="container-fluid blockquote">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-12 quotes text-center my-5">
+                            <p class="mb-0"><i class="fas fa-quote-left"></i> Allow yourself to see what you don't allow yourself to see... <i class="fas fa-quote-right"></i></p>
+                            <footer class="blockquote-footer"><cite title="Source Title">Milton H. Erickson</cite></footer>
+                        </div>
+                    </div>
+                </blockquote>
             </div>
         </div>
     </section>
@@ -142,7 +167,7 @@
             <div class="row">
                 <div class="col-12 p-5 mx-auto">
                     <blockquote>
-                        <p class="text-center shadow quote_personal"> Delve, discover and explore more about what Curative Hypnotherpy is and how it can help you...</p>
+                        <p class="text-center shadow quote_personal"> Any questions? Delve, discover and explore more about what Curative Hypnotherpy is and how it can help you...</p>
                     </blockquote>
                 </div>
             </div>
