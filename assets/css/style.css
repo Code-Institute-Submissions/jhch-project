@@ -73,7 +73,7 @@ body {
 
 .bground__layer {
     position: absolute;
-    top: 100px;
+    top: 80px;
     right: 0;
     bottom: 0;
     left: 0;
@@ -131,11 +131,16 @@ body {
     background-color: #fffcf9;
     color: #bfc1c9;
     border-radius: 25px;
+    max-width: 100%;
+    text-align: center;
 }
 
-.btn-position{
-    
+.btn-layout {
+    position: relative;
+    display: inline-block;
 }
+
+
 
 .play-video {
     color: #fffcf9;
@@ -242,6 +247,8 @@ body {
     line-height: 2;
     letter-spacing: 2px;
     color: #7f8084;
+    position: relative;
+    bottom: 30px;
 }
 
 .single-photo {

@@ -68,9 +68,9 @@
 
                 <section class="area-padding bg-color1">
                     <blockquote class="container-fluid blockquote">
-                        <div class="row align-items-center justify-content-between mt-3">
-                            <div class="col-12 quotes text-center ">
-                                <p class="mb-0"><i class="fas fa-quote-left"></i> Every day, in every way, I am getting better and better. <i class="fas fa-quote-right"></i></p>
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-12 quotes text-center m-5">
+                                <p><i class="fas fa-quote-left"></i> Every day, in every way, I am getting better and better. <i class="fas fa-quote-right"></i></p>
                                 <footer class="blockquote-footer"><cite title="Source Title">Émily Coué</cite></footer>
                             </div>
                         </div>
@@ -89,34 +89,46 @@
                 <img class="jus-photo" src="assets/images/beautiful_v1.svg" alt="JHCH company image" height="120%" width="120%">
             </div>
             <div class="bground__layer bground__layer--front">
-                <div class="row justify-content-center p-2 m-2">
+                <div class="row justify-content-center p-1 m-1">
                     <div class="area-heading">
                         <h2><i class="fas fa-map-signs"></i> Get to know me</h2>
                     </div>
-                    <div class="col-12 p-4 mx-auto mt-2">
+                    <div class="col-12 p-2 m-2">
                         <blockquote>
                             <p class="text-center shadow quote_personal">A chance to share with you who I am. Listen, watch and read at your leisure.</p>
                         </blockquote>
                     </div>
-                    <div class="col-12">
-                        <div class="row align-items-center justify-contents-center">
+                    <div class="col-12 p-2 m-2">
+                        <div class="row align-items-center justify-contents-center mx-auto">
                             <div class="col-12 col-lg-8">
                                 <div class="blog-style-message p-3 m-2">
                                     <p>The power of the human voice should never be underestimated. I hope you take this opportunity to identify with me and my journey so far. I'm a true believer of honesty, openess and willingness.</p>
                                 </div>
                             </div>
                             <div class="col-12 col-lg-4">
-                                <div class="blog-style-message shadow justify-contents-center mx-auto mb-5 px-auto pb-5">
-                                    <audio id="audiotag1" src="assets/media/justine_intro.m4a" preload="auto" controls></audio>
-                                    <a href="javascript:play_single_sound();"><img class="img-fluid d-inline-block" src="../assets/images/jhch_logo.svg" width="100%" height="100%" alt="Comapny logo"></a>
+                                <div class="blog-style-message shadow mx-auto px-auto pb-5">
+                                    <audio id="audiotag1" src="assets/media/justine_intro.m4a" preload="auto"></audio>
+                                    <a href="javascript:play_audio();"><img class="img-fluid d-inline-block" src="../assets/images/jhch_logo.svg" width="100%" height="100%" alt="Comapny logo"></a>
                                     <script type="text/javascript">
-                                        function play_single_sound() {
+                                        function play_audio() {
                                             document.getElementById('audiotag1').play();
                                         }
                                     </script>
-
-                                    <!--<img class="img-fluid d-inline-block" src="../assets/images/jhch_logo.svg" width="100%" height="100%" alt="Comapny logo">-->
-
+                                    <div class="btn-layout">
+                                        <a href="javascript:play_audio();" class="btn btn-secondary btn-sm" role="button" aria-disabled="true">Play</a>
+                                        <a href="javascript:pause_audio();" class="btn btn-secondary btn-sm" role="button" aria-disabled="true">Pause</a>
+                                        <a href="javascript:replay_audio();" class="btn btn-secondary btn-sm" role="button" aria-disabled="true">Replay</a>
+                                        </div>
+                                    <script type="text/javascript">
+                                        function pause_audio() {
+                                            document.getElementById('audiotag1').pause();
+                                        }
+                                    </script>
+                                    <script type="text/javascript">
+                                        function replay_audio() {
+                                            document.getElementById('audiotag1').load();
+                                        }
+                                    </script>
                                 </div>
                             </div>
                         </div>
@@ -124,7 +136,7 @@
                     <div class="col-12">
                         <div class="row align-items-center justify-contents-center">
                             <div class="col-12 col-lg-4">
-                                <div class="video-style shadow justify-contents-center">
+                                <div class="shadow">
                                     <img class="img-fluid d-inline-block" src="../assets/images/sky.jpg" width="100%" height="100%" alt="Comapny logo">
                                     <div class="play-btn">
                                         <a class="play-video" href="https://www.youtube.com/watch?v=Buv006-D4vM">
@@ -160,14 +172,14 @@
     <section id="section2" class="area-padding bg-color1">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="area-heading mt-2">
+                <div class="area-heading mt-5 pt-5">
                     <h2><i class="far fa-map"></i> Let's explore</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 p-5 mx-auto">
+                <div class="col-12 p-2 mx-auto">
                     <blockquote>
-                        <p class="text-center shadow quote_personal"> Any questions? Delve, discover and explore more about what Curative Hypnotherpy is and how it can help you...</p>
+                        <p class="text-center shadow quote_personal"> Questions? Delve, discover and explore more about what Curative Hypnotherpy is and how it can help you...</p>
                     </blockquote>
                 </div>
             </div>
@@ -217,7 +229,7 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-6 col-xl-5">
                         <div class="row">
-                            <div class="col-12 col-md-12 col-lg-12 col-xl-12 mb-1">
+                            <div class="col-12 col-md-12 col-lg-12 col-xl-12 my-3">
                                 <div class="single-photo">
                                     <div class="thumb">
                                         <img class="img-fluid" src="../assets/images/lady-street.png" alt="lady looking down a city street">
@@ -230,7 +242,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="col-12 col-md-12 col-lg-12 col-xl-12 my-3">
                                 <div class="single-photo">
                                     <div class="thumb">
                                         <img class="img-fluid" src="../assets/images/sky.jpg" alt="...">
@@ -245,7 +257,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4">
+                    <div class="col-md-6 col-lg-6 col-xl-4 mt-3 mb-3">
                         <div class="single-photo">
                             <div class="thumb">
                                 <img class="img-fluid" src="../assets/images/man-thinking.jpg" alt="man's face thinking">
@@ -260,7 +272,7 @@
                     </div>
                     <div class="col-lg-12 col-xl-3">
                         <div class="row">
-                            <div class="col-12 col-md-6 col-lg-6 col-xl-12 mb-1">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-12 my-3">
                                 <div class="single-photo">
                                     <div class="thumb">
                                         <img class="img-fluid" src="../assets/images/embers.jpg" alt="embers of a fire on a beach">
@@ -273,7 +285,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-6 col-xl-12">
+                            <div class="col-12 col-md-6 col-lg-6 col-xl-12 my-3">
                                 <div class="single-photo">
                                     <div class="thumb">
                                         <img class="img-fluid" src="../assets/images/purple-lines.png" alt="purple geological style artwork">
@@ -292,7 +304,7 @@
                 <!---End row--->
 
                 <blockquote class="container-fluid blockquote">
-                    <div class="row align-items-center justify-content-between my-5">
+                    <div class="row align-items-center justify-content-between mt-5">
                         <div class="col-12 quotes text-center">
                             <p class="mb-0"><i class="fas fa-quote-left"></i> Mastering others is strength. Mastering yourself is true power. <i class="fas fa-quote-right"></i></p>
                             <footer class="blockquote-footer"></footer><cite title="Source Title">Lao Tzu</cite></footer>
