@@ -50,11 +50,6 @@
     line-height: 0.5;
 }
 
-
-.area-padding {
-    padding-bottom: 130px 0;
-}
-
 .background {
     background: url("logo.svg") no-repeat right top;
 }
@@ -98,12 +93,30 @@ body {
 
 .quote_personal {
     font-family: "Poiret One", sans-serif;
-    font-size: 3vh;
+    font-size: 4vh;
     color: #fffcf9;
     background-color: #bfc1c9;
     padding: 15px 0;
     border-radius: 25px;
 }
+
+.side-social-links {
+    font-family: "Poiret One", sans-serif;
+    font-size: 3vh;
+    color: #bfc1c9;
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    right: 4rem;
+    -webkit-transform: translate3d(0, -50%, 0);
+    -ms-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+}
+
+.side-social-links a {
+    color: #bfc1c9;
+} 
 
 .welcome-font-sm {
     font-family: "Poiret One", sans-serif;
@@ -139,7 +152,6 @@ body {
     position: relative;
     display: inline-block;
 }
-
 
 
 .play-video {
@@ -248,7 +260,6 @@ body {
     letter-spacing: 2px;
     color: #7f8084;
     position: relative;
-    bottom: 30px;
 }
 
 .single-photo {
@@ -296,7 +307,10 @@ footer {
 /*----------------------------------------------------Special Text/Margins/Modals*/
 
 .blockquote {
-    background: rgba(255, 252, 249, 0.1);
+    background:rgb(255, 252, 249, 0.3);
+    position: relative;
+    transform: translateY(100px);
+    line-height: 1;
 }
 
 .modal-content {
@@ -304,4 +318,3 @@ footer {
     font-weight: 500;
     font-size: 2vh;
 }
-
