@@ -120,7 +120,7 @@ body {
 
 .side-social-links a {
     color: #bfc1c9;
-} 
+}
 
 .welcome-font-sm {
     font-family: "Poiret One", sans-serif;
@@ -276,6 +276,34 @@ body {
 }
 
 /*----------------------------------------------------Connect with me section*/
+
+.btn {
+    font-family: "Poiret One", sans-serif;
+    font-size: 2.5vh;
+    line-height: 1;
+    letter-spacing: 1.5px;
+    color: #fffcf9;
+}
+
+.contact-info-icon {
+    margin-right: 15px;
+}
+
+.contact-info-icon i {
+    color: #bfc1c9;
+    font-size: 70px;
+}
+
+.contact-media_body {
+    font-family: "Poiret One", sans-serif;
+    font-size: 2vh;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #c99dc4;
+    background-color: #fffcf9;
+    border-radius: 15px;
+}
+
 .contact-title {
     font-family: "Poiret One", sans-serif;
     font-size: 3vh;
@@ -306,13 +334,7 @@ body {
     border-radius: 15px;
 }
 
-.btn {
-    font-family: "Poiret One", sans-serif;
-    font-size: 2vh;
-    line-height: 1;
-    letter-spacing: 1.5px;
-    color: #fffcf9;
-}
+
 /*----------------------------------------------------Footer/Quotes sections*/
 
 #grad2 {
@@ -347,7 +369,7 @@ footer {
 /*----------------------------------------------------Special Text/Margins/Modals*/
 
 .blockquote {
-    background:rgb(255, 252, 249, 0.3);
+    background: rgb(255, 252, 249, 0.3);
     position: relative;
     transform: translateY(100px);
     line-height: 1;
