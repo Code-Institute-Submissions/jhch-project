@@ -50,6 +50,10 @@
     line-height: 0.5;
 }
 
+.area-padding {
+    padding-bottom: 100px;
+}
+
 .background {
     background: url("logo.svg") no-repeat right top;
 }
@@ -68,7 +72,7 @@ body {
 
 .bground__layer {
     position: absolute;
-    top: 80px;
+    top: 45px;
     right: 0;
     bottom: 0;
     left: 0;
@@ -102,16 +106,16 @@ body {
 
 .side-social-links {
     font-family: "Poiret One", sans-serif;
-    font-size: 3vh;
+    font-size: 2vh;
     color: #bfc1c9;
     list-style: none;
     margin: 0;
     position: absolute;
-    top: 30%;
+    top: 10%;
     right: 4rem;
-    -webkit-transform: translate3d(0, -50%, 0);
-    -ms-transform: translate3d(0, -50%, 0);
-    transform: translate3d(0, -50%, 0);
+    -webkit-transform: translate3d(0, -800%, 0);
+    -ms-transform: translate3d(0, -800%, 0);
+    transform: translate3d(0, -800%, 0);
 }
 
 .side-social-links a {
@@ -272,7 +276,34 @@ body {
 }
 
 /*----------------------------------------------------Connect with me section*/
+.contact-title {
+    font-family: "Poiret One", sans-serif;
+    font-size: 3vh;
+    line-height: 2;
+    letter-spacing: 2px;
+    color: #c99dc4;
+    background-color: #fffcf9;
+    border-radius: 15px;
+}
+.form-group {
+    font-family: "Poiret One", sans-serif;
+    font-size: 2.5vh;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    color: #bfc1c9;
+    background-color: #fffcf9;
+    border-radius: 15px;
+}
 
+.form-control {
+    font-family: "Poiret One", sans-serif;
+    font-size: 2.5vh;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    color: ;
+    background-color: #fffcf9;
+    border-radius: 15px;
+}
 /*----------------------------------------------------Footer/Quotes sections*/
 
 #grad2 {
@@ -311,6 +342,7 @@ footer {
     position: relative;
     transform: translateY(100px);
     line-height: 1;
+    margin-bottom: 0;
 }
 
 .modal-content {
