@@ -152,6 +152,14 @@ body {
     text-align: center;
 }
 
+.welcome-message-pic {
+    background-color: #fffcf9;
+    color: #bfc1c9;
+    border-radius: 25px;
+    text-align: center;
+    opacity: 0.4;
+}
+
 .btn-layout {
     position: relative;
     display: inline-block;
@@ -283,18 +291,16 @@ body {
 .btn {
     font-family: "Poiret One", sans-serif;
     font-size: 2.5vh;
-    line-height: 1;
+    line-height: 1.5;
     letter-spacing: 1.5px;
     color: #fffcf9;
-}
-
-.contact-info-icon {
-    margin-right: 15px;
-}
+} 
 
 .contact-info-icon i {
     color: #bfc1c9;
-    font-size: 70px;
+    font-size: 60px;
+    width: 70px;
+    height: 70px;
 }
 
 .contact-media_body {

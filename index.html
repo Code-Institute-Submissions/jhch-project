@@ -69,7 +69,7 @@
                             </a>
                             </li>
                             <li>
-                                <a class="hvr-glow" target="_blank" href="http://linkedin.com/in/justinehodgson">
+                                <a class="hvr-glow" target="_blank" href="http://linkedin.com/in/justine-hodgson-64b68937">
                                 <i class="fab fa-linkedin" aria-hidden="true"></i>
                                 <span class="sr-only">LinkedIn</span>
                             </a>
@@ -77,11 +77,39 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12">
-                    <blockquote>
-                        <p class="text-center shadow quote_personal p-5 mt-5">"Hello and welcome to my website. I hope you find this site useful, healing and helpful whatever you are facing at this current time.<br><br> Whatever it is you are either facing or considering to face, may I take this opportunity
-                            to reach out to you and say, thank you & well done." - <i>Justine Hodgson</i></p>
-                    </blockquote>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-lg-4 mx-auto">
+                        <div class="welcome-message-pic shadow">
+                            <audio id="audiotag1" src="assets/media/jus-welcome-message.m4a" preload="auto"></audio>
+                            <a href="javascript:play_audio();"><img class="img-fluid d-inline-block align-items-center p-3" src="../assets/images/jus4.jpg" width="80%" height="80%" alt="Photo of Justine"></a>
+                            <script type="text/javascript">
+                                function play_audio() {
+                                    document.getElementById('audiotag1').play();
+                                }
+                            </script>
+                            <div class="btn-layout p-3">
+                                <a href="javascript:play_audio();" class="btn btn-secondary btn-sm" role="button" aria-disabled="true">Play</a>
+                                <a href="javascript:pause_audio();" class="btn btn-secondary btn-sm" role="button" aria-disabled="true">Pause</a>
+                                <a href="javascript:replay_audio();" class="btn btn-secondary btn-sm" role="button" aria-disabled="true">Reload</a>
+                            </div>
+                            <script type="text/javascript">
+                                function pause_audio() {
+                                    document.getElementById('audiotag1').pause();
+                                }
+                            </script>
+                            <script type="text/javascript">
+                                function replay_audio() {
+                                    document.getElementById('audiotag1').load();
+                                }
+                            </script>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <blockquote>
+                            <p class="text-center shadow quote_personal p-5 mt-5">"Hello and welcome to my website. I hope you find this site useful, healing and helpful whatever you are facing at this current time.<br><br> Whatever it is you are either facing or considering to face, may I take this opportunity
+                                to reach out to you and say, thank you & well done." - <i>Justine Hodgson</i></p>
+                        </blockquote>
+                    </div>
                 </div>
                 <blockquote class="container-fluid blockquote mt-5">
                     <div class="row align-items-center justify-content-center">
@@ -104,7 +132,7 @@
                 <img class="jus-photo" src="assets/images/beautiful_v1.svg" alt="JHCH company image" height="125%" width="125%">
             </div>
             <div class="bground__layer bground__layer--front">
-                <div class="row justify-content-center">
+                <div class="row align-items-center justify-content-center">
                     <div class="col-12 area-heading pt-5 mt-5">
                         <h2><i class="fas fa-map-signs"></i> Get to know me</h2>
                     </div>
@@ -115,9 +143,9 @@
                     </div>
                 </div>
                 <div class="row mt-5 pt-5">
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-3 offset-1">
                         <div class="row align-items-center justify-content-center">
-                            <div class="col-12 mx-auto">
+                            <div class="col-12 mx-auto m-2">
                                 <div class="blog-style-message p-3 m-2">
                                     <p>The power of the human voice should never be underestimated. I hope you take this opportunity to identify with me and my journey so far. I'm a true believer of honesty, openess and willingness.</p>
                                 </div>
@@ -126,7 +154,7 @@
                                 <div class="col-12 mx-auto">
                                     <div class="blog-style-message shadow">
                                         <audio id="audiotag1" src="assets/media/justine_intro.m4a" preload="auto"></audio>
-                                        <a href="javascript:play_audio();"><img class="img-fluid d-inline-block align-items-center p-3" src="../assets/images/jhch_logo.svg" width="90%" height="90%" alt="Comapny logo"></a>
+                                        <a href="javascript:play_audio();"><img class="img-fluid d-inline-block align-items-center p-3" src="../assets/images/jhch_logo.svg" width="100%" height="100%" alt="Comapny logo"></a>
                                         <script type="text/javascript">
                                             function play_audio() {
                                                 document.getElementById('audiotag1').play();
@@ -152,7 +180,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-4 mx-3">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="blog-style-message p-3 m-2">
+                                    <p>The power of the human voice should never be underestimated. I hope you take this opportunity to identify with me and my journey so far. I'm a true believer of honesty, openess and willingness.<br><br> Then you can
+                                        go on and on and blah and blah and even more blah and blah.......</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
                         <div class="row">
                             <div class="col-12">
                                 <div class="blog-style-message p-3 m-2">
@@ -162,30 +200,11 @@
                         </div>
                         <div class="row mx-auto align-items-center justify-content-center">
                             <div class="col-12">
-                                <img class="img-fluid" src="../assets/images/sky.jpg" width="90%" height="90%" alt="Comapny logo">
+                                <img class="img-fluid" src="../assets/images/sky.jpg" width="100%" height="100%" alt="">
                                 <div class="play-btn">
                                     <a class="play-video" target="_blank" href="https://www.youtube.com/watch?v=Buv006-D4vM">
                                             <i class="fas play-video fa-play-circle"></i>
                                         </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="blog-style-message p-3 m-2">
-                                    <p>The power of the human voice should never be underestimated. I hope you take this opportunity to identify with me and my journey so far. I'm a true believer of honesty, openess and willingness.</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <img class="img-fluid " src="../assets/images/lady-street.png" width="90%" height="90%" alt="Comapny logo">
-                                    <div class="play-btn">
-                                        <a class="play-video" target="_blank" href="https://www.youtube.com/watch?v=Buv006-D4vM">
-                                            <i class="fas play-video fa-play-circle"></i>
-                                        </a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -395,7 +414,7 @@
                                     <input class="form-control" name="subject" id="subject" type="text" placeholder="Enter subject"></input>
                                 </div>
                             </div>
-                            <div class="form-group mt-3">
+                            <div class="form-group m-3">
                                 <button type="Submit" class="btn btn-secondary">Submit</button>
                             </div>
                         </div>
@@ -407,7 +426,7 @@
                             <i class="fas fa-mobile-alt"></i>
                         </span>
                         <div class="contact-media_body m-3 p-2">
-                            <h3> 07788 234 676</h3>
+                            <h3> +973 3882 8606</h3>
                             <p> Mon to Fri 9am to 4pm</p>
                         </div>
                     </div>
@@ -487,13 +506,13 @@
             <div class="col-lg-4 col-sm-6 mt-0">
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.instagram.com/just24.7/">
                             <i class="fab fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="http://linkedin.com/in/justine-hodgson-64b68937">
                             <i class="fab fa-linkedin" aria-hidden="true"></i>
                             <span class="sr-only">LinkedIn</span>
                         </a>
