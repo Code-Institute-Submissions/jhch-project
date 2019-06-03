@@ -72,14 +72,14 @@ body {
 
 .bground__layer {
     position: absolute;
-    top: 45px;
+    top: 70px;
     right: 0;
     bottom: 0;
     left: 0;
 }
 
 .bground__layer--back {
-    transform: translateZ(-1px) scale(2);
+    transform: translateZ(-3px) scale(2.5);
 }
 
 .bground__layer--front {
@@ -140,8 +140,6 @@ body {
 }
 
 .welcome-message-pic {
-    background-color: #fffcf9;
-    color: #bfc1c9;
     border-radius: 25px;
     text-align: center;
     opacity: 0.65;
