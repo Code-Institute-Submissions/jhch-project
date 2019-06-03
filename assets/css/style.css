@@ -121,6 +121,9 @@ body {
 .side-social-links a {
     color: #bfc1c9;
 }
+.welcome-background {
+    opacity: 0.15;
+}
 
 .welcome-font-sm {
     font-family: "Poiret One", sans-serif;
@@ -136,10 +139,6 @@ body {
     line-height: 1.1;
 }
 
-.welcome-background {
-    opacity: 0.15;
-}
-
 .welcome-message-pic {
     background-color: #fffcf9;
     color: #bfc1c9;
@@ -148,11 +147,18 @@ body {
     opacity: 0.65;
 }
 
+.welcome-quote {
+    font-family: "Poiret One", sans-serif;
+    font-size: 3vh;
+    color: #c99dc4;
+    line-height: 1.1;
+}
+
 /*----------------------------------------------------Get to know me section*/
 
 .blog-style-message {
     font-family: "Poiret One", sans-serif;
-    font-size: 3vh;
+    font-size: 2.5vh;
     background-color: #fffcf9;
     color: #bfc1c9;
     border-radius: 25px;
