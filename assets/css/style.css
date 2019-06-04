@@ -52,6 +52,7 @@
 
 .area-padding {
     padding-bottom: 100px;
+    max-width: 100vw;
 }
 
 .background {
@@ -59,7 +60,8 @@
 }
 
 body {
-    height: 100vh;
+    max-height: 100vh;
+    max-width: 100vw;
     padding-top: 75px;
 }
 
@@ -168,6 +170,7 @@ body {
     color: #c99dc4;
     font-weight: bolder;
 }
+
 .btn-layout {
     position: relative;
     display: inline-block;
@@ -175,6 +178,7 @@ body {
 
 .btn-layout btn {
     font-size: 1vh;
+    color: #c99dc4;
 }
 
 .play-video {
@@ -419,6 +423,14 @@ footer {
     margin: 0;
 }
 
+.footer-link {
+    color: #7f8084;
+}
+
+.footer-link-web {
+    color: #0a8ee5;
+}
+
 .footer-logo {
     display: inline-block;
     margin-top: 0px;
@@ -426,7 +438,7 @@ footer {
 }
 
 .social-links li a i {
-    font-size: 24px;
+    font-size: 28px;
     padding: 12px 0;
     line-height: 7px;
     text-align: center;
