@@ -106,7 +106,7 @@ body {
 
 .side-social-links {
     font-family: "Poiret One", sans-serif;
-    font-size: 2vh;
+    font-size: 2.5vh;
     color: #bfc1c9;
     list-style: none;
     margin: 0;
@@ -164,7 +164,10 @@ body {
     text-align: center;
 }
 
-
+.blog-style-message h3 {
+    color: #c99dc4;
+    font-weight: bolder;
+}
 .btn-layout {
     position: relative;
     display: inline-block;
@@ -189,7 +192,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.testimonial-font {
+    color: #c99dc4;
+}
 /*----------------------------------------------------Lets explore section*/
 
 .area-heading h2 {
