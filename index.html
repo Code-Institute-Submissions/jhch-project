@@ -88,28 +88,14 @@
                             </div>
                         </div>
                         <div class="welcome-message-pic shadow m-3">
-                            <audio id="audiotag1" src="assets/media/justine-welcome.m4a" preload="auto"></audio>
+                            <audio id="myTune" src="assets/media/justine-welcome.m4a" preload="auto"></audio>
                             <a href="javascript:play_audio();"><img class="img-fluid d-inline-block align-items-center p-3" src="../assets/images/jus5.jpg" width="80%" height="80%" alt="Photo of Justine"></a>
-                            <script type="text/javascript">
-                                function play_audio() {
-                                    document.getElementById('audiotag1').play();
-                                }
-                            </script>
                             <div class="btn-layout p-3">
-                                <a href="javascript:play_audio();" class="btn btn-secondary btn-sm" role="button" aria-disabled="true">Play</a>
-                                <a href="javascript:pause_audio();" class="btn btn-secondary btn-sm" role="button" aria-disabled="true">Pause</a>
-                                <a href="javascript:replay_audio();" class="btn btn-secondary btn-sm" role="button" aria-disabled="true">Reload</a>
+                                <button onclick="document.getElementById('myTune').play()">Play</button>
+                                <button onclick="document.getElementById('myTune').pause()">Pause</button>
+                                <button onclick="document.getElementById('myTune').load()">Reload</button>
+                                <button onclick="document.getElementById('myTune').pause(); document.getElementById('myTune').currentTime = 0;">Stop</button>
                             </div>
-                            <script type="text/javascript">
-                                function pause_audio() {
-                                    document.getElementById('audiotag1').pause();
-                                }
-                            </script>
-                            <script type="text/javascript">
-                                function replay_audio() {
-                                    document.getElementById('audiotag1').load();
-                                }
-                            </script>
                         </div>
                     </div>
                     <div class="col-12 col-lg-7 mt-5">
@@ -155,28 +141,14 @@
                         <div class="row align-items-center justify-content-center">
                             <div class="col-12">
                                 <div class="blog-style-message shadow m-3">
-                                    <audio id="audiotag2" src="assets/media1/jus-about-message.m4a" preload="auto"></audio>
+                                    <audio id="myTune2" src="assets/media/jus-about-message.m4a" preload="auto"></audio>
                                     <a href="javascript:play_audio();"><img class="img-fluid d-inline-block align-items-center p-3" src="../assets/images/jhch_logo.svg" width="45%" height="45%" alt="Comapny logo"></a>
-                                    <script type="text/javascript">
-                                        function play_audio() {
-                                            document.getElementById('audiotag2').play();
-                                        }
-                                    </script>
                                     <div class="btn-layout p-3">
-                                        <a href="javascript:play_audio();" class="btn btn-secondary btn-sm" role="button" aria-disabled="true">Play</a>
-                                        <a href="javascript:pause_audio();" class="btn btn-secondary btn-sm" role="button" aria-disabled="true">Pause</a>
-                                        <a href="javascript:replay_audio();" class="btn btn-secondary btn-sm" role="button" aria-disabled="true">Reload</a>
+                                        <button onclick="document.getElementById('myTune2').play()">Play</button>
+                                        <button onclick="document.getElementById('myTune2').pause()">Pause</button>
+                                        <button onclick="document.getElementById('myTune2').load()">Reload</button>
+                                        <button onclick="document.getElementById('myTune2').pause(); document.getElementById('myTune2').currentTime = 0;">Stop</button>
                                     </div>
-                                    <script type="text/javascript">
-                                        function pause_audio() {
-                                            document.getElementById('audiotag2').pause();
-                                        }
-                                    </script>
-                                    <script type="text/javascript">
-                                        function replay_audio() {
-                                            document.getElementById('audiotag2').load();
-                                        }
-                                    </script>
                                 </div>
                                 <div class="blog-style-message p-3 m-3">
                                     <p>By now hopefully, you’ve pressed the play button on both my welcome and about me recordings and I’ve saved you valuable time on reading a page full of words without much connection. As a hypnotherapist, it’s important
@@ -220,10 +192,10 @@
                                     was <i><strong>'a very successful and relaxed flight.'</strong></i><br><br>
                                     <p class="testimonial-font"><i class="fas fa-quote-left"></i>Anne-Sophie's testimonial (Bahrain/Kuwait/Amsterdam) <i class="fas fa-quote-right"></i></p>
                                     <button type="button" class="btn-sm btn-secondary" data-toggle="modal" data-target="#ModalContent6">
-                                        Learn more...
+                                        Listen to Anne-Sophie!
                                         </button>
                                 </p><br>
-                                <p><i><strong>What more could I add!</strong></i><br><br> The quote below really resonates with me, especially when I think of the good my work does.<br><br> For all those who are afraid to venture into the unknown, take note
+                                <p><i><strong>HER VOICE AND ENERGY SAYS IT ALL - What more could I add!</strong></i><br><br> The quote below really resonates with me, especially when I think of the good my work does.<br><br> For all those who are afraid to venture into the unknown, take note
                                     of this quote, perhaps you’ll take action, you weren’t made for LESS!<br><br>
                                     <div class="col-12 quotes text-center mx-auto mt-5">
                                         <p><i class="fas fa-quote-left"></i>We’ve not got enough time to give up for less.<br>Less love, less pleasure<br>Less joy, less passion<br><br> We weren’t made for less,<br>We weren’t made to settle into the dust
@@ -472,29 +444,29 @@
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-12 col-md-3 mx-auto">
+                <div class="col-12 col-lg-3 mx-auto">
                     <div class="single-step-area p-3 m-2">
-                        <i class="far fa-comment-alt"></i><br>
+                        <i class="work-icon far fa-comment-alt m-3"></i><br>
                         <h5>Contact me via me email, mobile or Skype (above)</h5>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 mx-auto">
+                <div class="col-12 col-lg-3 mx-auto">
                     <div class="single-step-area p-3 m-2">
-                        <i class="far fa-calendar-check"></i><br>
+                        <i class="work-icon far fa-calendar-check m-3"></i><br>
                         <h5>I connect back within 24hrs and arrange a date for our first two sessions</h5><br>
                         <h6>(Payment can be made at this point)</h6>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 mx-auto">
+                <div class="col-12 col-lg-3 mx-auto">
                     <div class="single-step-area p-3 m-2">
-                        <i class="fas fa-magic"></i><br>
+                        <i class="work-icon fas fa-magic m-3"></i><br>
                         <h5>Session One - A consultation for me to fact find from you and gather information I will need from you for session two - the hypnotherapy session. Where the actual suggestion and work takes place.</h5><br>
                         <h5>This is where I do the work and you experience a beautiful relaxing time and finish the session feeling revitalised and positive.</h5>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 mx-auto">
+                <div class="col-12 col-lg-3 mx-auto">
                     <div class="single-step-area p-3 m-2">
-                        <i class="fas fa-hand-holding-heart"></i><br>
+                        <i class="work-icon fas fa-hand-holding-heart m-3"></i><br>
                         <h5>I personally check-in with you after a few days amd gain some feedback from you</h5><br>
                     </div>
                 </div>
@@ -526,7 +498,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-lg-6">
                         <div class="row blog-bg shadow-lg position-relative m-5 p-5">
                             <div class="col-md-6 mb-md-0 p-md-4">
                                 <figure class="figure">
@@ -541,7 +513,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-lg-6">
                         <div class="row blog-bg shadow-lg position-relative m-5 p-5">
                             <div class="col-md-6 mb-md-0 p-md-4">
                                 <figure class="figure">
@@ -736,6 +708,14 @@
                     </button>
                 </div>
                 <div class="modal-body">
+                    <audio id="myTune3" src="assets/media/as-testimonial.m4a" preload="auto"></audio>
+                    <!--<a href="javascript:play_audio();"><img class="img-fluid d-inline-block align-items-center p-3" src="../assets/images/jhch_logo.svg" width="45%" height="45%" alt="Comapny logo"></a>-->
+                    <div class="btn-layout p-3">
+                        <button onclick="document.getElementById('myTune3').play()">Play</button>
+                        <button onclick="document.getElementById('myTune3').pause()">Pause</button>
+                        <button onclick="document.getElementById('myTune3').load()">Reload</button>
+                        <button onclick="document.getElementById('myTune3').pause(); document.getElementById('myTune3').currentTime = 0;">Stop</button>
+                    </div>
                     <article>Hi Justine, just landed in Amsterdam, it was a super, super good flight. There was a little bit of turbulence on the second leg, but that was the only part where I was a little bit anxious but take off and everything was so, so relaxing.<br><br>                        As soon as the plane took off I melted into my seat how you said I would and I just slept and I felt so at peace the entire time. So, I’m feeling really energised, I got to sleep, the only thing like I said was the turbulence,
                         which was an hour, it wasn’t even that bad and I wasn’t scared or anything, I just kinda was awake and wasn’t able to fall asleep in that hour, but other than that, I just felt really calm and quite relaxed.<br><br> But yeah, thank
                         you so much again, I can’t even imagine what I would have done without you.

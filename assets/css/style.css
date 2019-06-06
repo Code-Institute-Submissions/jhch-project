@@ -172,6 +172,13 @@ body {
 .btn-layout {
     position: relative;
     display: inline-block;
+    font-family: "Poiret One", sans-serif;
+    font-size: 2.5vh;
+    background-color: #fffcf9;
+    color: #bfc1c9;
+    border-radius: 25px;
+    max-width: 100%;
+    text-align: center;
 }
 
 .btn-layout btn {
@@ -366,6 +373,12 @@ body {
     color: #bfc1c9;
     background-color: #fffcf9;
     border-radius: 15px;
+    border: 1px solid #bfc1c9;
+}
+
+.work-icon {
+    font-size: 70px;
+    color: #c99dc4;
 }
 
 /*----------------------------------------------------BLOG section*/
