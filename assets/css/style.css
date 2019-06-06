@@ -107,7 +107,7 @@ body {
 .side-social-links {
     font-family: "Poiret One", sans-serif;
     font-size: 2.5vh;
-    color: #bfc1c9;
+    color: #a2a5b0;
     list-style: none;
     margin: 0;
     position: absolute;
@@ -119,7 +119,7 @@ body {
 }
 
 .side-social-links a {
-    color: #bfc1c9;
+    color: #a2a5b0;
 }
 .welcome-background {
     opacity: 0.15;
@@ -158,7 +158,7 @@ body {
     font-family: "Poiret One", sans-serif;
     font-size: 2.5vh;
     background-color: #fffcf9;
-    color: #bfc1c9;
+    color: #a2a5b0;
     border-radius: 25px;
     max-width: 100%;
     text-align: center;
@@ -175,7 +175,7 @@ body {
     font-family: "Poiret One", sans-serif;
     font-size: 2.5vh;
     background-color: #fffcf9;
-    color: #bfc1c9;
+    color: #a2a5b0;
     border-radius: 25px;
     max-width: 100%;
     text-align: center;
@@ -241,7 +241,7 @@ body {
     font-family: "Poiret One", sans-serif;
     font-size: 4vh;
     font-weight: 400;
-    color: #bfc1c9;
+    color: #a2a5b0;
     margin-bottom: 50px;
 }
 
@@ -249,7 +249,7 @@ body {
     font-family: "Poiret One", sans-serif;
     font-size: 6vh;
     font-weight: 800;
-    color: #bfc1c9;
+    color: #a2a5b0;
     margin-bottom: 50px;
 }
 
@@ -346,7 +346,7 @@ body {
     font-size: 2.5vh;
     line-height: 1.5;
     letter-spacing: 1.5px;
-    color: #bfc1c9;
+    color: #a2a5b0;
     background-color: #fffcf9;
     border-radius: 15px;
 }
@@ -356,7 +356,7 @@ body {
     font-size: 2.5vh;
     line-height: 1.5;
     letter-spacing: 1.5px;
-    color: #bfc1c9;
+    color: #a2a5b0;
     background-color: #fffcf9;
     border-radius: 15px;
 }
