@@ -299,7 +299,6 @@ body {
 }
 
 /*----------------------------------------------------Connect with me section*/
-
 .btn {
     font-family: "Poiret One", sans-serif;
     font-size: 2.5vh;
@@ -313,6 +312,7 @@ body {
     font-size: 60px;
     width: 70px;
     height: 70px;
+    justify content: center;
 }
 
 .contact-media_body {
@@ -346,6 +346,20 @@ body {
 }
 
 .form-control {
+    font-family: "Poiret One", sans-serif;
+    font-size: 2.5vh;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    color: #bfc1c9;
+    background-color: #fffcf9;
+    border-radius: 15px;
+}
+
+.list-group-item {
+    background-color: #fffcf9;
+}
+
+.single-step-area {
     font-family: "Poiret One", sans-serif;
     font-size: 2.5vh;
     line-height: 1.5;
@@ -423,6 +437,12 @@ footer {
 
 .footer-link {
     color: #7f8084;
+}
+
+.foot-link-font {
+    font-family: "Poiret One", sans-serif;
+    color: #7f8084;
+    min-height: 60px;
 }
 
 .footer-link-web {
