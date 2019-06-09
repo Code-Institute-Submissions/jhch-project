@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="css/animate.css">
-    <title>Justine Hodgson Curative Hypnotherapy | Therapy for fear of flying, quit smoking, self-confidence</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <title>Justine Hodgson Curative Hypnotherapy | Therapy for phobias, fears and any life-changing events</title>
 </head>
 
 <body class="bg-color1" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -89,7 +90,10 @@
                             </div>
                         </div>
                         <div class="welcome-message-pic shadow m-3">
-                            <audio id="myTune" src="assets/media/justine-welcome.m4a" preload="auto"></audio>
+                            <audio id="myTune" preload="auto">
+                                <source src="assets/media/justine-welcome.m4a">
+                                <source src="assets/media/justine-welcome.mp3">
+                            </audio>
                             <a href="javascript:play_audio();"><img class="img-fluid d-inline-block align-items-center p-3" src="../assets/images/jus5.jpg" width="80%" height="80%" alt="Photo of Justine"></a>
                             <div class="btn-layout p-3">
                                 <button onclick="document.getElementById('myTune').play()">Play</button>
