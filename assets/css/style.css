@@ -38,6 +38,10 @@
     color: #7f8084;
 }
 
+nav.navbar {
+  animation-duration: 2s;
+}
+
 /*----------------------------------------------------Landing/Welcome Page*/
 
 #myCanvas1 {
@@ -493,5 +497,8 @@ footer {
     font-size: 2vh;
 }
 
-/*----------------------------------------------------Animation Key Frames*/
+/*----------------------------------------------------Animation/Key Frames*/
 
+div.animated {
+    animation-duration: 2s;
+}
