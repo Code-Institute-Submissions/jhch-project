@@ -21,10 +21,14 @@ the means for clients to reach out to Justine and communicate with her and under
 ## Contents Table
 
 1. [**UX**](#ux)
-   -[**Project Purpose**](#project-purpose)
-   -[**User Experience**](#user-experience)
-   -[**User Stories**](#user-stories)
-   -[**Design Ideas**]
+   - [**Project Purpose**](#project-purpose)
+   - [**User Experience**](#user-experience)
+   - [**User Stories**](#user-stories)
+   - [**Design Ideas**](#design-ideas)
+   - [**Wireframes**](#wireframes)
+   - [**Developer and Business Purpose](3developer-and-business-purpose)
+
+2. 
 =======
 #Project documentation for design and implementation of JHCH web site
 ##Milestone 1 project assessment
