@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">
 User Centric Frontend Development Milestone Project - Milestone 1 - Wayne Pegg
 </h1>
@@ -24,3 +25,8 @@ the means for clients to reach out to Justine and communicate with her and under
    -[**User Experience**](#user-experience)
    -[**User Stories**](#user-stories)
    -[**Design Ideas**]
+=======
+#Project documentation for design and implementation of JHCH web site
+##Milestone 1 project assessment
+###Wayne Pegg
+>>>>>>> d73f5a8c37f950edd7f1224e7118056791027ff2
