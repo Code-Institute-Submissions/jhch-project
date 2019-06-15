@@ -3,7 +3,7 @@ User Centric Frontend Development Milestone Project - Milestone 1 - Wayne Pegg
 </h1>
 
 <h1 align="center">
-<img src="readme-images/justine_logo_v1.jpg" width=200 height=200 alt="Company JHCH logo - spirals heart">
+<img src="assets/readme-images/justine_logo_v1.jpg" width=200 height=200 alt="Company JHCH logo - spirals heart">
 </h1>
 
 <div align="center">
@@ -15,8 +15,6 @@ advantageous to start with a reasonably basic structure and offer several featur
 comfort to prospective clients. Trust within Justine as a person and Hypnotherapist as well as educate the potential client as to what Hypnotherapy is and how it works. Lastly, provide
 the means for clients to reach out to Justine and communicate with her and understand the process that they could potentially go through with Justine as their Hypnotherapist.
 
-[**View JHCH - Justine Hodgson Curative Hypnotherapy here!**]
-
 </div>
 
 ## Contents Table
@@ -27,7 +25,7 @@ the means for clients to reach out to Justine and communicate with her and under
    - [**User Stories**](#user-stories)
    - [**Design Ideas**](#design-ideas)
    - [**Wireframes**](#wireframes)
-   - [**Developer and Business Purpose](#developer-and-business-purpose)
+   - [**Developer and Business Purpose**](#developer-and-business-purpose)
 
 2. [**Features**](#features)
    - [**Current Features**](#current-features)
@@ -123,12 +121,16 @@ It was decided to title the differing sections in this way as it felt more intui
 The titles also give a very definitive meaning or objective as to what each section delivers for the user.
 
 A session of Hypnotherapy has many sections to it yet is delivered in a way that flows and feels natural. The client wouldn't neccesarily be aware of the academic sections of the Hypnotherapy session as these are 
-constructed in a way by Justine that one section flows into another. Yet, a slightly difference in language and objective is both implied and executed by the Hypnoitherapist.
+constructed in a way by Justine that one section flows into another. Yet, a slight difference in language and objective is both implied and executed by the Hypnoitherapist.
 
 This idea was taken and translated into the JHCH website. Once section flows into the other. It was felt the smooth transition and effect of **Parallax CSS** was employed and to great effect.
 
 My primary understanding of this subject was gained from; [First useful reference of Parallax CSS](https://keithclark.co.uk/articles/pure-css-parallax-websites/)
 To back this up I also used; [I also used W3 Schools](https://www.w3schools.com/)
+
+To provide clarity and ease of use, Scrollspy was employed. This provides an efficient way to jump, if neccesary, from one section to anotherif the user so wishes. My understanding for this was taken from the Bootstrap official documentation;
+
+[Bootstrap Scrollspy Documentation](https://getbootstrap.com/docs/4.3/components/scrollspy/)
 
 
 
