@@ -155,19 +155,35 @@ The wireframes for this project were compiled using [Balsamiq](https://balsamiq.
 
    - When the user arrives at the site they will be greeted with the opaque spiral heart logo as the parallax background. [**animate.css**](https://daneden.github.io/animate.css/) was used to
    fade the company name and navbar onto the page within a smooth and graceful manner. The rationale for this was to have the user focus primarily and initially on the heart shape and then have their
-   attention drawn to the name of JHCH and then the differing sections of the site.
+   attention drawn to the name of JHCH and then the differing sections of the site. There is also two specific links on the right-hand side of the page (Not XS or S) for Instagram and Justine's LinkedIn profile.
 
    - As the user scrolls down they will get to see and meet Justine with a photo of her as well as a welcome audio message for her. The user is presented with Play, Pause, Reload and Stop. The message 
    is approximately 1min 20sec long. This was not found on any other site. It's a very interesting statement that Justine Hodgson proposes to the user by offering this. It allows the user to hear her words
    and her voice for the first time. The voice of the Hypnotherapist is fundemantally and incredibly important if success is to occur with the treatment and therapy. As such we felt it prudent to offer the
    and sincere message of welcome and, at the sametime and without placing any noticable burden on the user, they will ultimately decide if they are okay to work with Justine and ultimately, her voice.
 
-   - 
+   - 3 audio files types were coded and provided through the use of [**Switch Audio File Converter Software**](https://www.nch.com.au/switch/index.html). An MP3, M4A and WAV files have been supplied.
 
    - There is also a written personal message to accompany this this.
+   
+   - The company logo spiral heart at the top LH corner of the navbar is an active link to index.html and reloads the landing/welcome page.
+   
 
+2. #### Get to know me page
 
+   - Scrollspy from Botstrap was employed and the nav link can take the user to any section.
+   
+   - The user is greeted by a small message from Justine which aims to supply the idea of the section in a personal manner.
+   
+   - A second and slightly longer recording of Justine is presented. This allows the user to hear Justine's own personal story and how she came to become a Hypnotherapist. Again, this is to show
+   and encourage Justine's openness towards a potential user and build trust. Identification of her story with that of the user is a key feature here.
 
+   - Personal messages then follow this recording.
+   
+   - An important section follows and provides the user to actually hear a testimonial rather than simply read one. A written format is also provided in the modal that accompanies Anne-Sophie's 
+   powerful verbal recording.
+
+3. #### Let's explore page
 
 
 
