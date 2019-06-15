@@ -57,7 +57,7 @@ The main goal of this project was to provide a unique and personally reflective 
 
 The site would provide the neccesary and required information within an intuitive way and both inform and educate prospective clients of the services offered.
 
-### User Experience
+### User Experience & User Stories
 
 It was the stand point of Justine that potential clients/users of the web site of Justine Hodgson Curative Hypnotherpy (JHCH) would come from three potential backgrounds. 
 Firstly, that of someone who has never experienced or engaged within Curative Hypnotherapy (CH), secondly, the user has used or engaged within Hypnotherapy before and 
@@ -66,10 +66,10 @@ or someone they know who may require possible treatment.
 
 The essence and nature of this form of treatment and service provided is evidently very 'intimate' and as such, requires a high degree of trust, understanding, compassion, empathy, reliability and 
 excellent communication. Indeed, the website for JHCH was viewed as an opportunity to bridge these very important and unique aspects of this type of service. The following points were established as
-priorities for Justine for the user experience:
+priorities and goals for the user experience of her site:
 
    - To allow the user to get to know who Justine is, her background and why she became a Hypnotherapist. This was very important so as to establish a bridge of trust between the user
-     and Justine, the Hypnotherapist
+     and Justine, the Hypnotherapist. This, provide an opportunity to listen to Justine, her story and provide a real-life case study of a patient
    - To understand what Curative Hypnotherapy is, how it works and what is can be used for. Ultimately, provide information within a succint and informative manner that a potential user would possibly require.
    - Provide a realistic viewpoint of what Hypnotherapy can and cannot do. This was an opportunity to challenge popoular and sensationalist views associated with this therapy. 
    - Due to the nature of this treatment, it was important to encouarge and congratulate potential users. It is very normal that potential users would be fearful about disclosing their conditions
@@ -77,7 +77,61 @@ priorities for Justine for the user experience:
    - Allow and provide the user to gain insight and information of the stages of therapy if they were to use the services offered by JHCH
    - Allow and provide the user several easy ways to make direct contact weith JHCH
 
-The essence of hypnotherapy is to relax the user and provide a seemless service. 
+The essence of hypnotherapy is to relax the user and provide a gentle, supportive and almost intuitive approach that is holistic and organic in nature. It was important to reflect this within the 
+structure and design of the site.
+
+### Design Ideas
+
+Research was conducted reviewing several Hypnotherapist websites. It was felt that the vast majority of sites contained an excessive amount of information. Whilst this was all very interesting and important
+it was very academic in nature and style, almost copied from a text book rather than specifically written in a non-academia manner.
+
+It was also found that virtually all sites failed to provide a professionally tailored 'intimate or soulful' level of understanding about the therapist themselves. It was deemed as being very clinical.
+
+These two major issues are in fact, from the stand point of the Hypnotherapist-client relationship, extremely important. One of the main goals for Justine as the therapist is to provide and ensure complete and utter
+professional confidence within her clients.
+
+As such, the following factors were considered important when designing the JHCH website:
+
+   - A different look and feel
+   - Colourful
+   - Artistic in style
+   - Flow through the site and sections
+   - Openness
+   - Attraction rather than promotion
+
+#### Artwork/Fonts/Colours
+
+The artwork/logo used of a heart/angel wing-shape and style was designed by myself using Adobe Illustrator. The differing spirals were used to create the shape of the heart as the spiral shapes can be associated
+with the idea of thought, which Hypnotherapy evidently revolves around. 
+
+It was decided to use three differing colours, the main colour of purple being the most predominant. The rationale for this was taken from colour theory, that being the colour purple has associations to holistic 
+therapies and mindfulness/spirituality. Areas that aligned very well with the essence of the services offered. A slightly off-white was used as well as a soothing grey colour that provides contrast.
+
+The font used was taken from **Google Fonts**, this was Poiret One. The reason for this was that it was considered to be gentle in appearance, inviting, clean and generally uplifting. It was felt that it reflected 
+Justine herself very well and was considered appeasing to the eye from a visual standpoint. 
+
+#### Background
+
+The website has 4 main sections, these being;
+
+   - The Landing/Welcome page
+   - Get to know me 
+   - Let's Explore
+   - Connect and Work with me
+
+It was decided to title the differing sections in this way as it felt more intuitive for the user and helped to make the sections, and the site in a wider context, more personalised for the user when considering Justine.
+
+The titles also give a very definitive meaning or objective as to what each section delivers for the user.
+
+A session of Hypnotherapy has many sections to it yet is delivered in a way that flows and feels natural. The client wouldn't neccesarily be aware of the academic sections of the Hypnotherapy session as these are 
+constructed in a way by Justine that one section flows into another. Yet, a slightly difference in language and objective is both implied and executed by the Hypnoitherapist.
+
+This idea was taken and translated into the JHCH website. Once section flows into the other. It was felt the smooth transition and effect of **Parallax CSS** was employed and to great effect.
+
+My primary understanding of this subject was gained from; [First useful reference of Parallax CSS](https://keithclark.co.uk/articles/pure-css-parallax-websites/)
+To back this up I also used; [Also used](https://www.w3schools.com/)
+
+   
 
 
 
