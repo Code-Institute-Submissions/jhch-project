@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 <h1 align="center">
 User Centric Frontend Development Milestone Project - Milestone 1 - Wayne Pegg
 </h1>
 
 <h1 align="center">
-<img ...>
+<img src="readme-images/justine_logo_v1.jpg" width=200 height=200 alt="Company JHCH logo - spirals heart">
 </h1>
 
 <div align="center">
@@ -129,16 +128,11 @@ constructed in a way by Justine that one section flows into another. Yet, a slig
 This idea was taken and translated into the JHCH website. Once section flows into the other. It was felt the smooth transition and effect of **Parallax CSS** was employed and to great effect.
 
 My primary understanding of this subject was gained from; [First useful reference of Parallax CSS](https://keithclark.co.uk/articles/pure-css-parallax-websites/)
-To back this up I also used; [Also used](https://www.w3schools.com/)
-
-   
+To back this up I also used; [I also used W3 Schools](https://www.w3schools.com/)
 
 
 
 
 
-=======
-#Project documentation for design and implementation of JHCH web site
-##Milestone 1 project assessment
-###Wayne Pegg
->>>>>>> d73f5a8c37f950edd7f1224e7118056791027ff2
+
+
