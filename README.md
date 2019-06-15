@@ -126,11 +126,17 @@ constructed in a way by Justine that one section flows into another. Yet, a slig
 This idea was taken and translated into the JHCH website. Once section flows into the other. It was felt the smooth transition and effect of **Parallax CSS** was employed and to great effect.
 
 My primary understanding of this subject was gained from; [First useful reference of Parallax CSS](https://keithclark.co.uk/articles/pure-css-parallax-websites/)
-To back this up I also used; [I also used W3 Schools](https://www.w3schools.com/)
+To back this up I also used; [I also used W3 Schools](https://www.w3schools.com/). As will be seen in the Let's Explore and Connect/Work with me section's of the site, due to the amount of information presented
+it was felt that a background image/parallax effect would not be used as it created a very busy and al most confusing environment for the user. As such, these areas were kept simple with the colours shown.
 
 To provide clarity and ease of use, Scrollspy was employed. This provides an efficient way to jump, if neccesary, from one section to anotherif the user so wishes. My understanding for this was taken from the Bootstrap official documentation;
-
 [Bootstrap Scrollspy Documentation](https://getbootstrap.com/docs/4.3/components/scrollspy/)
+
+Personal photography from Justine was used of her and audio files that were recorded of her speaking to the user were recorded by Justine and provided to myself for use on the website.
+
+The 4 different sections were given diferrentiating background colours of a purple shade to white. Once again providing contrast for these sections. 
+
+
 
 
 
