@@ -25,7 +25,6 @@ the means for clients to reach out to Justine and communicate with her and under
    - [**User Stories**](#user-stories)
    - [**Design Ideas**](#design-ideas)
    - [**Wireframes**](#wireframes)
-   - [**Developer and Business Purpose**](#developer-and-business-purpose)
 
 2. [**Features**](#features)
    - [**Current Features**](#current-features)
@@ -75,12 +74,12 @@ priorities and goals for the user experience of her site:
    - Allow and provide the user several easy ways to make direct contact weith JHCH
 
 The essence of hypnotherapy is to relax the user and provide a gentle, supportive and almost intuitive approach that is holistic and organic in nature. It was important to reflect this within the 
-structure and design of the site.
+structure and design of the site. It has been attempted to reflect this in the look, feel, movement, function and structure of the JHCH website.
 
 ### Design Ideas
 
 Research was conducted reviewing several Hypnotherapist websites. It was felt that the vast majority of sites contained an excessive amount of information. Whilst this was all very interesting and important
-it was very academic in nature and style, almost copied from a text book rather than specifically written in a non-academia manner.
+it was very academic in nature and style, almost copied from a text book rather than specifically written in a 'non-academic' manner.
 
 It was also found that virtually all sites failed to provide a professionally tailored 'intimate or soulful' level of understanding about the therapist themselves. It was deemed as being very clinical.
 
@@ -104,7 +103,7 @@ with the idea of thought, which Hypnotherapy evidently revolves around.
 It was decided to use three differing colours, the main colour of purple being the most predominant. The rationale for this was taken from colour theory, that being the colour purple has associations to holistic 
 therapies and mindfulness/spirituality. Areas that aligned very well with the essence of the services offered. A slightly off-white was used as well as a soothing grey colour that provides contrast.
 
-The font used was taken from **Google Fonts**, this was Poiret One. The reason for this was that it was considered to be gentle in appearance, inviting, clean and generally uplifting. It was felt that it reflected 
+The font used was taken from [**Google Fonts**](https://fonts.google.com/specimen/Poiret+One), this was Poiret One. The reason for this was that it was considered to be gentle in appearance, inviting, clean and generally uplifting. It was felt that it reflected 
 Justine herself very well and was considered appeasing to the eye from a visual standpoint. 
 
 #### Background
@@ -134,7 +133,38 @@ To provide clarity and ease of use, Scrollspy was employed. This provides an eff
 
 Personal photography from Justine was used of her and audio files that were recorded of her speaking to the user were recorded by Justine and provided to myself for use on the website.
 
-The 4 different sections were given diferrentiating background colours of a purple shade to white. Once again providing contrast for these sections. 
+The 4 different sections were given diferrentiating background colours of a purple shade to white. Once again providing contrast for these sections and differentiating the areas and theme. 
+
+### Wireframes
+
+The wireframes for this project were compiled using [Balsamiq](https://balsamiq.com/) for a clean looking design layout.
+
+- #### Desktop Wireframes
+
+    
+- #### Tablet Wireframes
+
+
+- #### Mobile Wireframes
+
+## Features
+
+### Existing Features
+
+1. #### Landing/Welcome page
+
+   - When the user arrives at the site they will be greeted with the opaque spiral heart logo as the parallax background. [**animate.css**](https://daneden.github.io/animate.css/) was used to
+   fade the company name and navbar onto the page within a smooth and graceful manner. The rationale for this was to have the user focus primarily and initially on the heart shape and then have their
+   attention drawn to the name of JHCH and then the differing sections of the site.
+
+   - As the user scrolls down they will get to see and meet Justine with a photo of her as well as a welcome audio message for her. The user is presented with Play, Pause, Reload and Stop. The message 
+   is approximately 1min 20sec long. This was not found on any other site. It's a very interesting statement that Justine Hodgson proposes to the user by offering this. It allows the user to hear her words
+   and her voice for the first time. The voice of the Hypnotherapist is fundemantally and incredibly important if success is to occur with the treatment and therapy. As such we felt it prudent to offer the
+   and sincere message of welcome and, at the sametime and without placing any noticable burden on the user, they will ultimately decide if they are okay to work with Justine and ultimately, her voice.
+
+   - 
+
+   - There is also a written personal message to accompany this this.
 
 
 
