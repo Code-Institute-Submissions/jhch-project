@@ -10,8 +10,8 @@ User Centric Frontend Development Milestone Project - Milestone 1 - Wayne Pegg
 This site, www.justinehodgsonhypnotherapy.com, was developed for my partner. She coincidentally qualified as a Curative Hypnotherapist and needed to have her website built.
 This was excellent timing as I could use the idea and requirements of the site for my first milestone project!<br><br>
 
-Justine wanted a site that was reflective of her as an individual and her identity as a hypnotherapist. As she is just launching her professional seevices, it was thought to be 
-advantageous to start with a reasonably basic structure and offer several features. The main ideal for this site was to reach out and provide a bridge of trust, understanding and 
+Justine wanted a site that was reflective of her as an individual and her identity as a hypnotherapist. As she is just launching her professional services, it was thought to be 
+advantageous to start with a reasonably basic structure and offer several features. The main idea for this site was to reach out and provide a bridge of trust, understanding and 
 comfort to prospective clients. Trust within Justine as a person and Hypnotherapist as well as educate the potential client as to what Hypnotherapy is and how it works. Lastly, provide
 the means for clients to reach out to Justine and communicate with her and understand the process that they could potentially go through with Justine as their Hypnotherapist.
 
@@ -71,7 +71,7 @@ priorities and goals for the user experience of her site:
    - Due to the nature of this treatment, it was important to encouarge and congratulate potential users. It is very normal that potential users would be fearful about disclosing their conditions
      and/or seeking professional help with these intimate and very personal conditions. A fine balance of 'enough' information versus 'too much' information was a very weighted and important factor.
    - Allow and provide the user to gain insight and information of the stages of therapy if they were to use the services offered by JHCH
-   - Allow and provide the user several easy ways to make direct contact weith JHCH
+   - Allow and provide the user several easy ways to make direct contact with JHCH
 
 The essence of hypnotherapy is to relax the user and provide a gentle, supportive and almost intuitive approach that is holistic and organic in nature. It was important to reflect this within the 
 structure and design of the site. It has been attempted to reflect this in the look, feel, movement, function and structure of the JHCH website.
@@ -139,13 +139,9 @@ The 4 different sections were given diferrentiating background colours of a purp
 
 The wireframes for this project were compiled using [Balsamiq](https://balsamiq.com/) for a clean looking design layout.
 
-- #### Desktop Wireframes
-
-    
-- #### Tablet Wireframes
-
-
 - #### Mobile Wireframes
+- #### Tablet Wireframes
+- #### Desktop Wireframes
 
 ## Features
 
@@ -171,7 +167,7 @@ The wireframes for this project were compiled using [Balsamiq](https://balsamiq.
 
 2. #### Get to know me page
 
-   - Scrollspy from Botstrap was employed and the nav link can take the user to any section.
+   - Scrollspy from Bootstrap was employed and the nav link can take the user to any section.
    
    - The user is greeted by a small message from Justine which aims to supply the idea of the section in a personal manner.
    
@@ -184,6 +180,18 @@ The wireframes for this project were compiled using [Balsamiq](https://balsamiq.
    powerful verbal recording.
 
 3. #### Let's explore page
+
+   - It was noted that the subject of Hypnotherapy has a lot of academic research and text, and rightly so. However, the question was considered, does the potential user/client want to read
+   and engage with such text?
+
+   - It was decided that Justine would provide several 'user-friendly' articles or questions and some statements that challenged and corrected normal and widely acknowledged misconceptions about
+   Hypnotherapy.
+
+   - To make this more interesting and interactive a Carousel format would follow Justines 'to the point' message. Photographs from [**Adobe Stock**](https://stock.adobe.com/uk/) and [**Unsplash**](https://unsplash.com/) were 
+   used. The images choosen were shown and agreed with Justine. Those images that envoked emotions and captured the essence of the subject and the article were used. Evoking thought from this content
+   was considered to be an important attribute.
+
+   - Several images were used to pose those question that most user's would have. The answer was shown via the employment of modals from Bootstrap 4.
 
 
 
