@@ -114,6 +114,7 @@ The website has 4 main sections, these being;
    - Get to know me 
    - Let's Explore
    - Connect and Work with me
+   - Blog
 
 It was decided to title the differing sections in this way as it felt more intuitive for the user and helped to make the sections, and the site in a wider context, more personalised for the user when considering Justine.
 
@@ -192,6 +193,20 @@ The wireframes for this project were compiled using [Balsamiq](https://balsamiq.
    was considered to be an important attribute.
 
    - Several images were used to pose those question that most user's would have. The answer was shown via the employment of modals from Bootstrap 4.
+
+4. #### Connect & Work with me
+
+   - The connect with me section provides several means/ways to connect with Justine if the user so wishes.
+   
+   - A direct messaging facility presented to the user. This would be aligned to deliver these messages directly to Justine's personal Hypnotherapy email. Form validation has been required
+   using ```HTML5's``` new ```required``` class validator based upon browser specific alerts.
+
+   - Justine's business mobile, Skype and email are then provided with icons being used from [**Fontawesome**](https://fontawesome.com/)
+   
+   - The users then glides to the Working with me section. This was important as it shows and informs the user what to do next and helps guide them through what is a specific and exacting process
+   used by Justine and Hypnotherapists. This hopefully installs confidence in the user and helps to reduce unknown quantities or answer questions they may have.
+
+   - Colourful icons were choosen to reflect the nature of the information from Fontawesome
 
 
 
