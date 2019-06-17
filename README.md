@@ -21,8 +21,7 @@ the means for clients to reach out to Justine and communicate with her and under
 
 1. [**UX**](#ux)
    - [**Project Purpose**](#project-purpose)
-   - [**User Experience**](#user-experience)
-   - [**User Stories**](#user-stories)
+   - [**User Experience & User Stories**](#user-experience & user-stories)
    - [**Design Ideas**](#design-ideas)
    - [**Wireframes**](#wireframes)
 
@@ -229,11 +228,76 @@ Having built the JHCH site is has provided both Justine and I to consider future
 3. Calendly/Paypal/Zoom implementation - This is one of the main priporties moving forwards. The ability to link the calendly app to both Justine's Paypal and Zoom accounts will provide an easy and seemless service as 
 well as reduce the need for administration or scheduling for Justine.
 
+4. A responsive menu-icon to appear for the user on all responsive sizes that can be accessed when the user wants or needs this.
+
 The above future features 1-3. have been planned to be implemented by the end of July 2019 at the latest.
 
-4. A paid subscription service and member's area - Once an adequate social media following and newsletter/blog subscription base has been attained, a monthly-paid-subscription service will 
+5. A paid subscription service and member's area - Once an adequate social media following and newsletter/blog subscription base has been attained, a monthly-paid-subscription service will 
 be offered. This will be a specific area where a user has login details. From this area a number of insightful resources will be offered, personal videos from Justine on many differing areas to do with Hypnotherapy and
 specific phobias. Downloadable self-hypnosis recordings and scripts that the user can use. Other forms of therapy will be offered from Justine such as Holistic nutrition, Yoga therapy, bespoke clothing ranges and a future
 'The JH Academy of Holistic Well-Being'. The plans for this are being compiled now. These features are planned to commence in 2020.  
+
+## Technologies Used
+
+- This project uses `HTML5, CSS3, JavaScript` and various different technologies to work as helpers to the languages.
+- #### [Cloud9](https://c9.io)
+    - **Cloud9** is an IDE used to develop the website.
+- #### [Bootstrap](https://www.bootstrapcdn.com/)
+    - **Bootstrap** is used to create easier & cleaner responsiveness in addition with helping maintain padding and margins.
+    - It's also used to include modal features to the website to give it a professional look.
+- #### [Google Fonts](https://fonts.google.com/)
+    - **Google Fonts** has been used to provide clean and eye-catching fonts to the website.
+- #### [JQuery](https://jquery.com)
+    - **JQuery** has been used to simplify DOM manipulation.
+- #### [Font Awesome](https://www.bootstrapcdn.com/fontawesome/)
+    - **Font Awesome** has been used to add icons to the website.
+- #### [GitHub](https://github.com/)
+    - **Github** is used: 
+    1. As a remote backup of code used in the project.
+    2. As a remote server for another user to see the code used in the project.
+    3. For users to view the deployed version of the website. The deployed github version can be found [here](https://github.com/Peggy535/jhch-project).
+    The live version that is currently hosted on Hostgator can be viewed [here.](www.justinehodgsonhypnotherapy.com).
+
+## Testing
+
+A full testing process can be found in a separate [tests.md](tests.md) file.
+
+
+## Deployment
+
+The project was built using [Cloud9](https://c9.io), through a built-in function called 'Git', I could commit
+the project & push it up to [GitHub](https://github.com/).
+
+- To view the deployed version of [Simon Game!](https://github.com/Peggy535/jhch-project) I needed to take the following steps:
+    - Log in to [GitHub](https://github.com/).
+    - Select **Peggy535/jhch-project** from the list of repositories.
+    - Select **Settings** from the navbar near the top of the page.
+    - Scroll down to where it says **Github Pages**, there is a subtitle labelled **Source**, click that and change the source to be **master branch**.
+    - The page is automatically refreshed and ready for deployment, it can take up to 5-10 minutes for it to be viewable.
+
+- To add this repository to your local workspace:
+    - Click on the [JHCH repository on GitHub!](https://github.com/Peggy535/jhch-project) link.
+    - Select the green button on the right-hand side named **Clone or download** and copy the clone URL.
+    - Go into your local workspace and open up a new terminal (git bash).
+    - You will need to be inside of the directory that you want to add the cloning to.
+    - Type `git clone ` and paste the URL you copied from GitHub and press enter. It should look like this: 
+```console
+git clone https://github.com/*username*/*repository*
+```
+The process of cloning will now be completed. For further information on cloning,
+ visit [How to clone from GitHub](https://help.github.com/en/articles/cloning-a-repository).
+
+
+## Credits
+
+### Contents
+
+- All Content has been thought of and written by the Developer. 
+
+### Media
+
+- #### Images
+    - The Main background image, the JHCH logo was 
+    - The JHCH favicon was created in [**Ionos**](https://www.ionos.co.uk/tools/favicon-generator).
 
 
