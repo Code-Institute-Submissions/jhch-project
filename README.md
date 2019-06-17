@@ -260,7 +260,16 @@ specific phobias. Downloadable self-hypnosis recordings and scripts that the use
 
 ## Testing
 
-A full testing process can be found in a separate [tests.md](tests.md) file.
+1. Using google developer tools I firstly ensured that the layout and function was correct on all screen sizes ranging from the equivalent of a Samsung Galaxy 5 mobile telephone to a desktop.
+2. For each screen size I then checked that the following links and functions operated as they were intended for all responsive screen sizes as defined by Bootstrap;
+
+   - All Navbar links including scrollspy and the company logo to reload the landing/welcome web page
+   - All 4 audio file functions/buttons (For all 3 audio files)
+   - All modals launched correctly and displayed the appropriate and correct content
+   - Ensured the responsive validatory fucntions operated correctly on the personal message form (Connect with me section)
+   - All footer links work correctly
+
+3. That the blog article launched within a new tab and was correctly displayed for all responsive screen sizes.
 
 
 ## Deployment
@@ -297,7 +306,14 @@ The process of cloning will now be completed. For further information on cloning
 ### Media
 
 - #### Images
-    - The Main background image, the JHCH logo was 
+    - The Main background image, the JHCH logo was produced by myself using Adobe Illustrator.
+    - The images of Justine were personal photographs and other imagery obtained from [**Adobe Stock**](https://stock.adobe.com/uk/) and [**Unsplash**](https://unsplash.com/).
     - The JHCH favicon was created in [**Ionos**](https://www.ionos.co.uk/tools/favicon-generator).
+
+- #### Sounds
+    
+    - 3 different audio files were used, two personal messages from Justine herself and one audio file from a client regarding her experience and recent treatment. These were received from Justine and converted
+    by using use of [**Switch Audio File Converter Software**](https://www.nch.com.au/switch/index.html). An MP3, M4A and WAV files have been supplied.
+
 
 
