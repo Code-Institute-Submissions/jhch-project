@@ -139,9 +139,11 @@ The 4 different sections were given diferrentiating background colours of a purp
 
 The wireframes for this project were compiled using [Balsamiq](https://balsamiq.com/) for a clean looking design layout.
 
-- #### Mobile Wireframes
-- #### Tablet Wireframes
+- #### Mobile/Tablet Wireframes
+   - [Main - Mobile Display into Get to know me](readme-images/mobile-tablet.jpg)
 - #### Desktop Wireframes
+   - [Main - Desktop Display](readme-images/desktop-landing-page.png)
+   - [Main - Desktop Display continuation](readme-images/desktop-landing-page-continuation.png)
 
 ## Features
 
@@ -315,5 +317,23 @@ The process of cloning will now be completed. For further information on cloning
     - 3 different audio files were used, two personal messages from Justine herself and one audio file from a client regarding her experience and recent treatment. These were received from Justine and converted
     by using use of [**Switch Audio File Converter Software**](https://www.nch.com.au/switch/index.html). An MP3, M4A and WAV files have been supplied.
 
+### Help with code
 
+- I used the following resources to assist me in my understanding about certain aspects and functions of the structure of my project and the code I personally wrote;
+ - [**Code Institute LMS**](https://codeinstitute.net/)
+ - [**The Net Ninja**](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
+ - [**Front End Masters-personal subscription**](https://frontendmasters.com/)
+ - [**Pure CSS Parallax**](https://keithclark.co.uk/articles/pure-css-parallax-websites/)
+The code viewed from the videos was not copied into the project, the videos and articles were used as help and guidance to be interpreted in a different and unique way.
+
+### Acknowledgements
+
+A huge thank you to:
+
+- Spencer Barriball (spence_mentor) - For discussing ideas, encouragement and motivation as well as providing help wherever necessary and also there as a
+guide if I'm ever stuck with anything.
+
+## Disclaimer
+
+All content on the website, including images, are used for educational purposes only.
 
