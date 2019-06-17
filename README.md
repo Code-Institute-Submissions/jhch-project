@@ -140,10 +140,10 @@ The 4 different sections were given diferrentiating background colours of a purp
 The wireframes for this project were compiled using [Balsamiq](https://balsamiq.com/) and some were hand drawn.
 
 - #### Mobile/Tablet Wireframes
-   - [Main - Mobile Display into Get to know me](readme-images/mobile-tablet.jpg)
+   - [Main - Mobile Display into Get to know me](assets/readme-images/mobile-tablet.jpg)
 - #### Desktop Wireframes
-   - [Main - Desktop Display](readme-images/desktop-landing-page.png)
-   - [Main - Desktop Display continuation](readme-images/desktop-landing-page-continuation.png)
+   - [Main - Desktop Display](assets/readme-images/desktop-landing-page.png)
+   - [Main - Desktop Display continuation](assets/readme-images/desktop-landing-page-continuation.png)
 
 ## Features
 
