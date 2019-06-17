@@ -201,15 +201,39 @@ The wireframes for this project were compiled using [Balsamiq](https://balsamiq.
    - A direct messaging facility presented to the user. This would be aligned to deliver these messages directly to Justine's personal Hypnotherapy email. Form validation has been required
    using ```HTML5's``` new ```required``` class validator based upon browser specific alerts.
 
-   - Justine's business mobile, Skype and email are then provided with icons being used from [**Fontawesome**](https://fontawesome.com/)
+   - Justine's business mobile, Skype and email are then provided with icons being used from [**Font Awesome**](https://fontawesome.com/)
    
-   - The users then glides to the Working with me section. This was important as it shows and informs the user what to do next and helps guide them through what is a specific and exacting process
-   used by Justine and Hypnotherapists. This hopefully installs confidence in the user and helps to reduce unknown quantities or answer questions they may have.
+   - The user then glides to the 'Working with me' section. This was important as it shows and informs the user what to do next and helps guide them through what is a specific and exacting process
+   used by Justine and Hypnotherapists in general. This hopefully installs confidence in the user and helps to reduce unknown quantities or answer questions they may have.
 
-   - Colourful icons were choosen to reflect the nature of the information from Fontawesome
+   - Colourful icons were choosen to reflect the nature of the information from Font Awesome.
+   
+5. #### Blog
+
+   - It was concluded from Justine in the client discovery meeting that there is generally a lot of mis-directed information about the subject of Hypnotherapy. It was decided that a positive approach
+   would be to include a personal blog from Justine. This will be on a monthly basis.
+
+   - From a business perspective, this is a great way to offer an attractive and positive message as well as relate personal and first-hand experiences to the user.
+   
+   - The blog article is accessed from a button which opens a new tab for the user convenience.
 
 
+### Features Left to Implement
 
+Having built the JHCH site is has provided both Justine and I to consider future features. These include the following;
 
+1. Live email/messaging system - It has been noted that this project and the actual live version does not yet have a fully-functioning direct messaging system. This will be directed towards the JHCH business email
+
+2. Subscription service - This will allow a user to 'sign-up' for free emails/blogs/weekly messages from Justine. It will also allow Justine to build a potential client base for marketing and other purposes.
+
+3. Calendly/Paypal/Zoom implementation - This is one of the main priporties moving forwards. The ability to link the calendly app to both Justine's Paypal and Zoom accounts will provide an easy and seemless service as 
+well as reduce the need for administration or scheduling for Justine.
+
+The above future features 1-3. have been planned to be implemented by the end of July 2019 at the latest.
+
+4. A paid subscription service and member's area - Once an adequate social media following and newsletter/blog subscription base has been attained, a monthly-paid-subscription service will 
+be offered. This will be a specific area where a user has login details. From this area a number of insightful resources will be offered, personal videos from Justine on many differing areas to do with Hypnotherapy and
+specific phobias. Downloadable self-hypnosis recordings and scripts that the user can use. Other forms of therapy will be offered from Justine such as Holistic nutrition, Yoga therapy, bespoke clothing ranges and a future
+'The JH Academy of Holistic Well-Being'. The plans for this are being compiled now. These features are planned to commence in 2020.  
 
 
