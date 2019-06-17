@@ -12,7 +12,7 @@ This was excellent timing as I could use the idea and requirements of the site f
 
 Justine wanted a site that was reflective of her as an individual and her identity as a hypnotherapist. As she is just launching her professional services, it was thought to be 
 advantageous to start with a reasonably basic structure and offer several features. The main idea for this site was to reach out and provide a bridge of trust, understanding and 
-comfort to prospective clients. Trust within Justine as a person and Hypnotherapist as well as educate the potential client as to what Hypnotherapy is and how it works. Lastly, provide
+comfort to prospective clients. It was very important to establish trust within Justine as a person and, as a Hypnotherapist as well as educate the potential client as to what Hypnotherapy is and how it works. Lastly, provide
 the means for clients to reach out to Justine and communicate with her and understand the process that they could potentially go through with Justine as their Hypnotherapist.
 
 </div>
@@ -21,7 +21,7 @@ the means for clients to reach out to Justine and communicate with her and under
 
 1. [**UX**](#ux)
    - [**Project Purpose**](#project-purpose)
-   - [**User Experience & User Stories**](#user-experience & user-stories)
+   - [**User Experience & User Stories**](#user-experience-&-user-stories)
    - [**Design Ideas**](#design-ideas)
    - [**Wireframes**](#wireframes)
 
@@ -48,13 +48,13 @@ the means for clients to reach out to Justine and communicate with her and under
 
 ### Project Purpose
 
-The main goal of this project was to provide a unique and personally reflective website for my partner for her newly establishing business as a Hyponotherapist.
+The main goal of this project was to provide a unique and personally reflective website for my partner for her newly established business as a Curative Hyponotherapist.
 
-The site would provide the neccesary and required information within an intuitive way and both inform and educate prospective clients of the services offered.
+The site would provide the neccesary and required information within an intuitive way and, inform and educate prospective clients of the services offered.
 
 ### User Experience & User Stories
 
-It was the stand point of Justine that potential clients/users of the web site of Justine Hodgson Curative Hypnotherpy (JHCH) would come from three potential backgrounds. 
+It was the stand point of Justine that potential clients/users of the website would come from three potential backgrounds. 
 Firstly, that of someone who has never experienced or engaged within Curative Hypnotherapy (CH), secondly, the user has used or engaged within Hypnotherapy before and 
 are in the process of seeking this treatment again possibly with Justine. Lastly, the user/client could potentially be gathering information about the subject and/or Justine herself for themselves
 or someone they know who may require possible treatment.
@@ -137,7 +137,7 @@ The 4 different sections were given diferrentiating background colours of a purp
 
 ### Wireframes
 
-The wireframes for this project were compiled using [Balsamiq](https://balsamiq.com/) for a clean looking design layout.
+The wireframes for this project were compiled using [Balsamiq](https://balsamiq.com/) and some were hand drawn.
 
 - #### Mobile/Tablet Wireframes
    - [Main - Mobile Display into Get to know me](readme-images/mobile-tablet.jpg)
@@ -199,7 +199,7 @@ The wireframes for this project were compiled using [Balsamiq](https://balsamiq.
 
    - The connect with me section provides several means/ways to connect with Justine if the user so wishes.
    
-   - A direct messaging facility presented to the user. This would be aligned to deliver these messages directly to Justine's personal Hypnotherapy email. Form validation has been required
+   - A direct messaging facility presented to the user. This would be coded to deliver these messages directly to Justine's personal Hypnotherapy email. Form validation has been required
    using ```HTML5's``` new ```required``` class validator based upon browser specific alerts.
 
    - Justine's business mobile, Skype and email are then provided with icons being used from [**Font Awesome**](https://fontawesome.com/)
@@ -216,12 +216,12 @@ The wireframes for this project were compiled using [Balsamiq](https://balsamiq.
 
    - From a business perspective, this is a great way to offer an attractive and positive message as well as relate personal and first-hand experiences to the user.
    
-   - The blog article is accessed from a button which opens a new tab for the user convenience.
+   - The blog article is accessed from a button which opens a new tab for the user's convenience.
 
 
 ### Features Left to Implement
 
-Having built the JHCH site is has provided both Justine and I to consider future features. These include the following;
+Having built the JHCH site it has provided both Justine and I to consider future features. These include the following;
 
 1. Live email/messaging system - It has been noted that this project and the actual live version does not yet have a fully-functioning direct messaging system. This will be directed towards the JHCH business email
 
